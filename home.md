@@ -1,7 +1,7 @@
 <!-- TITLE: Neighbor wiki -->
 <!-- SUBTITLE: Welcome to the best company on earth -->
 
-# Here's what you'll find here
+# Quick links
 
 * [Engineering](https://neighbor-wiki.herokuapp.com/engineering)
 * [Ops](https://neighbor-wiki.herokuapp.com/ops)

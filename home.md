@@ -3,7 +3,7 @@
 
 # Quick links
 
-* [Engineering](https://neighbor-wiki.herokuapp.com/engineering)
+* [Engineering](https://wiki.neighbor.com/engineering)
 * [Ops](https://neighbor-wiki.herokuapp.com/ops)
 * [Marketing](https://neighbor-wiki.herokuapp.com/marketing)
 

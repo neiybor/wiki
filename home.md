@@ -3,9 +3,9 @@
 
 # Quick links
 
-* [Engineering](https://wiki.neighbor.com/engineering)
-* [Ops](https://neighbor-wiki.herokuapp.com/ops)
-* [Marketing](https://neighbor-wiki.herokuapp.com/marketing)
+* [Engineering](/engineering)
+* [Ops](/ops)
+* [Marketing](/marketing)
 
 # How to do stuff
 

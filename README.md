@@ -1,4 +1,4 @@
-#NOTE: **Do not edit this repo! Use https://github.com/neiybor/wiki-deploy on how to make changes**
+#NOTE: **Do not edit this repo! Use https://github.com/neiybor/wiki-deploy to make config changes**
 
 <div align="center">
 

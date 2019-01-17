@@ -1,3 +1,5 @@
+#NOTE: **Do not edit this repo! Use https://github.com/neiybor/wiki-deploy on how to make changes**
+
 <div align="center">
 
 <img src="https://beta.requarks.io/svg/logo.svg" alt="Wiki.js" width="375" />

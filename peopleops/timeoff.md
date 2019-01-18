@@ -1,7 +1,5 @@
-<!-- TITLE: Timeoff -->
-<!-- SUBTITLE: A quick summary of Timeoff -->
-
-# Time Off
+<!-- TITLE: Time Off -->
+<!-- SUBTITLE: Holidays and PTO -->
 
 ## Neighbor Holidays
 * New Year's Day

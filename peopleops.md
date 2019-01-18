@@ -2,7 +2,7 @@
 <!-- SUBTITLE: A quick summary of Peopleops -->
 
 # People Ops
-[Holidays and Time Off]
+[Holidays and PTO](/peopleops/timeoff)
 
 
-[Benefits]
+[Benefits](/peopleops/benefits)

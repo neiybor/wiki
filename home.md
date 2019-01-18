@@ -7,6 +7,7 @@
 * [Ops](/ops)
 * [Marketing](/marketing)
 * [People Ops](/peopleops)
+* [IT](/it)
 
 # How to do stuff
 

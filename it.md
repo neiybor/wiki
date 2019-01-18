@@ -9,7 +9,7 @@ Pwd: won'tyoubemyN6r
 #### Guest network
 Name: NeighborGuest
 Pwd: FredRogers
-The guest network is rate limited so it can't interfere too much with our work. I tested the network on an old iPhone in the farthest corner of the office and was able to stream an HD video. Let me know if you have issues though.
+The guest network is rate limited so it will not interfere significantly with the employee network.
 
 ### Front Door Access
 

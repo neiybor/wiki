@@ -1,4 +1,4 @@
-<!-- TITLE: People Ops -->
+<!-- TITLE: Human Resources -->
 <!-- SUBTITLE: Benefits, policies, and bears. Oh my! -->
 
 # Human Resources

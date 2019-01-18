@@ -6,7 +6,7 @@
 * [Engineering](/engineering)
 * [Ops](/ops)
 * [Marketing](/marketing)
-* [Human Resources](/hr)
+* [Human Resources](/peopleops)
 * [IT](/it)
 
 # How to do stuff

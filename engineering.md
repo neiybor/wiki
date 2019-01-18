@@ -6,4 +6,4 @@
 * [Onboarding](/engineering/onboarding)
 
 ### Features Ideas and Bugs
-Report feature ideas and bugs at <a href="http://issue.neighbor.com" target="_blank">https://issue.neighbor.com</a>
+Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" target="_blank">https://issue.neighbor.com</a>

@@ -1,5 +1,5 @@
-<!-- TITLE: Peopleops -->
-<!-- SUBTITLE: A quick summary of Peopleops -->
+<!-- TITLE: People Ops -->
+<!-- SUBTITLE: Benefits, policies, and bears. Oh my! -->
 
 # People Ops
 [Holidays and PTO](/peopleops/timeoff)

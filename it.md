@@ -10,7 +10,7 @@ We have a smart deadbolt on the upstairs front door to make it easy for everyone
 
 Send a 6+ digit code to derrick@
 
-Follow the instructions here for using the code to unlock/lock the door.
+Follow the instructions [here](https://drive.google.com/open?id=1eDBVaRrti_UunEyMUbyD16JySkNCcCLv) for using the code to unlock/lock the door.
 
 NOTE: Do NOT lock the front door handle so we can use the deadbolt for access to our office.
 

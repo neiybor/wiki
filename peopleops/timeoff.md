@@ -2,6 +2,7 @@
 <!-- SUBTITLE: Holidays and Time-off -->
 
 ## Neighbor Holidays
+Full Days:
 * New Year's Day
 * Martin Luther King, Jr. Day
 * President's Day
@@ -12,7 +13,9 @@
 * Friday after Thanksgiving
 * Christmas Eve
 * Christmas Day
-* New Year's Eve (Half Day)
+
+Half Days
+* New Year's Eve
 
 **Add the Neighbor Holiday calendar to your Google Calendar**
 https://calendar.google.com/calendar?cid=bmVpeWJvci5jb21fNHBwMTkxb2ljZ2c5bzBwaTE4bDFia2w1bHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ

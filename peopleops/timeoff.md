@@ -1,5 +1,5 @@
 <!-- TITLE: Time Off -->
-<!-- SUBTITLE: Holidays and PTO -->
+<!-- SUBTITLE: Holidays and Time-off -->
 
 ## Neighbor Holidays
 * New Year's Day
@@ -16,6 +16,6 @@
 **Add the Neighbor Holiday calendar to your Google Calendar**
 https://calendar.google.com/calendar?cid=bmVpeWJvci5jb21fNHBwMTkxb2ljZ2c5bzBwaTE4bDFia2w1bHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
 
-## Paid time off
+## Time-off
 Fill out this form
 https://docs.google.com/forms/d/e/1FAIpQLSeDpRGG869PHQEUviEocAmZG2xmWsuKe-rX2UZ5b74znQkSYg/viewform

@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Benefits, policies, and bears. Oh my! -->
 
 # Human Resources
-[Holidays and Time-off](/HR/timeoff)
+[Holidays and Time-off](/peopleops/timeoff)
 
 
-[Benefits](/HR/benefits)
+[Benefits](/peopleops/benefits)

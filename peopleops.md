@@ -1,8 +1,8 @@
 <!-- TITLE: People Ops -->
 <!-- SUBTITLE: Benefits, policies, and bears. Oh my! -->
 
-# People Ops
-[Holidays and PTO](/peopleops/timeoff)
+# Human Resources
+[Holidays and Time-off](/HR/timeoff)
 
 
-[Benefits](/peopleops/benefits)
+[Benefits](/HR/benefits)

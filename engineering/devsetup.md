@@ -44,8 +44,7 @@
 			1. Send them “skip default output format”
 1. Get & run setup script (recommended)
 	1. Replace RED VALUES with your info
-```
-#install git
+```#install git
 sudo apt update
 sudo apt upgrade
 sudo apt install git
@@ -53,8 +52,7 @@ sudo apt install git
 git config --global color.ui true
 git config --global user.name "FIRSTNAME LASTNAME"
 git config --global user.email "YOUR@EMAIL.com"
-ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com" #use default file location on prompt 
-```
+ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com" #use default file location on prompt```
 Upload ssh key just generated to your github account
 Go to https://github.com/settings/keys
 Run command: gedit ~/.ssh/id_rsa.pub

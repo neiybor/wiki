@@ -3,65 +3,58 @@
 
 # Dev Setup
 1. Setup BIOS and OS
-Plug into Ethernet / connect wifi
-Install Windows and login
-Plugin the flash drive with Ubuntu
-Go to https://forums.lenovo.com/t5/ThinkPad-P-and-W-Series-Mobile/Thinkpad-P50-can-no-longer-get-into-BIOS-from-boot-screen-using/td-p/3498366 and follow the 9 steps to get into the right BIOS
-Update BIOS
-	1. Security -> Secure Boot
-	1. Set to Disabled
-	1. Startup -> Boot
-	1. Move USB HDD... to top of boot order
-	1. Graphics
-	1. Change Hybrid to Discrete graphics
-	1. Save and exit
+	1. Plug into Ethernet / connect wifi
+	1. Install Windows and login
+	1. Plugin the flash drive with Ubuntu
+	1. Go to https://forums.lenovo.com/t5/ThinkPad-P-and-W-Series-Mobile/Thinkpad-P50-can-no-longer-get-into-BIOS-from-boot-screen-using/td-p/3498366 and follow the 9 steps to get into the right BIOS
+	1. Update BIOS
+		1. Security -> Secure Boot
+			1. Set to Disabled
+		1. Startup -> Boot
+			1. Move USB HDD... to top of boot order
+		1. Graphics
+			1. Change Hybrid to Discrete graphics
+		1. Save and exit
 	1. Install Ubuntu
-	1. Select “Download updates while installing” and “install 3rd party…” options and press continue
-Erase disk and install Ubuntu and select the “Encrypt” and “LVM” options. Press continue.
-Ubuntu 18: 
-Enter a security key -- note put it in lastpass -- you will be prompted to enter this key every time you login and there is NO RECOVERY
-On “Erase disk & install ubuntu” screen select the SSD drive
-On “Write changes to disk” prompt select Continue
-“Who are you?” page
-Computer name: email prefix (email part before @)
-Username: email prefix (email part before @)
-Require password on login
-Do NOT encrypt home folder (entire disk already encrypted)
-Remove the USB drive when installation is complete and press restart
-If it hangs saying “Assuming drive cache: write through” on reset, Hard reset computer
-Install chrome
-Download .deb file - do NOT try to open
-In terminal run
-
-
-cd ~/Downloads
-sudo apt install -f ./google-chrome-stable_current_amd64.deb
-
-Install lastpass addon
-Get access to repos
-Neiybor Github account
-Setup your AWS account
-For the admin adding the new hire: make sure the new hire is added to the ‘engineers’ group
-Hint: Minimum password length is 16 chars
-Make the user an access key
-Send them “You will need the following to setup the AWS CLI while the setup-dev script runs”
-Send them the key and secret
-Send them “default region: us-east-1”
-Send them “skip default output format”
-Get & run setup script (recommended)
-Replace RED VALUES with your info
-
-
+		1. Select “Download updates while installing” and “install 3rd party…” options and press continue
+		1. Erase disk and install Ubuntu and select the “Encrypt” and “LVM” options. Press continue.
+		1. Enter a security key -- note put it in lastpass -- you will be prompted to enter this key every time you login and there is NO RECOVERY
+		1. On “Erase disk & install ubuntu” screen select the SSD drive
+		1. On “Write changes to disk” prompt select Continue
+		1. “Who are you?” page
+			1. Computer name: email prefix (email part before @)
+			1. Username: email prefix (email part before @)
+			1. Require password on login
+			1. Do NOT encrypt home folder (entire disk already encrypted)
+		1. Remove the USB drive when installation is complete and press restart
+		1. If it hangs saying “Assuming drive cache: write through” on reset, Hard reset computer
+	1. Install chrome
+		1. Download .deb file - select Save
+		1. Open folder viewer and double click deb file to install
+		1. Install lastpass addon
+		1. Get access to repos
+		1. Neiybor Github account
+		1. Setup your AWS account
+			1. For the admin adding the new hire: make sure the new hire is added to the ‘engineers’ group
+			1. Hint: Minimum password length is 16 chars
+			1. Make the user an access key
+			1. Send them “You will need the following to setup the AWS CLI while the setup-dev script runs”
+			1. Send them the key and secret
+			1. Send them “default region: us-east-1”
+			1. Send them “skip default output format”
+	1. Get & run setup script (recommended)
+		1. Replace RED VALUES with your info
+```
 #install git
 sudo apt update
 sudo apt upgrade
 sudo apt install git
-
 # configure git
 git config --global color.ui true
 git config --global user.name "FIRSTNAME LASTNAME"
 git config --global user.email "YOUR@EMAIL.com"
 ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com" #use default file location on prompt 
+```
 Upload ssh key just generated to your github account
 Go to https://github.com/settings/keys
 Run command: gedit ~/.ssh/id_rsa.pub

@@ -42,8 +42,8 @@
 			1. Send them the key and secret
 			1. Send them “default region: us-east-1”
 			1. Send them “skip default output format”
-	1. Get & run setup script (recommended)
-		1. Replace RED VALUES with your info
+1. Get & run setup script (recommended)
+	1. Replace RED VALUES with your info
 ```
 #install git
 sudo apt update

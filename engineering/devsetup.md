@@ -36,12 +36,12 @@
 		1. Neiybor Github account
 		1. Setup your AWS account
 			1. For the admin adding the new hire: make sure the new hire is added to the ‘engineers’ group
-			1. Hint: Minimum password length is 16 chars
+				1. Hint: Minimum password length is 16 chars
 			1. Make the user an access key
-			1. Send them “You will need the following to setup the AWS CLI while the setup-dev script runs”
-			1. Send them the key and secret
-			1. Send them “default region: us-east-1”
-			1. Send them “skip default output format”
+				1. Send them “You will need the following to setup the AWS CLI while the setup-dev script runs”
+				1. Send them the key and secret
+				1. Send them “default region: us-east-1”
+				1. Send them “skip default output format”
 1. Get & run setup script (recommended)
 	1. Replace RED VALUES with your info
 	```

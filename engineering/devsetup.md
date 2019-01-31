@@ -55,10 +55,10 @@
 	git config --global user.email "YOUR@EMAIL.com"
 	ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com" #use default file location on prompt
 	```
-	1. Upload ssh key just generated to your github account
-	1. Go to https://github.com/settings/keys
-	1. Run command: gedit ~/.ssh/id_rsa.pub
-	1. Copy entire text and paste into new key form
+	2. Upload ssh key just generated to your github account
+		1. Go to https://github.com/settings/keys
+		1. Run command: gedit ~/.ssh/id_rsa.pub
+		1. Copy entire text and paste into new key form
 	1. Download config-management repo
 	```
 	# download repo

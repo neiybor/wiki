@@ -2,20 +2,21 @@
 <!-- SUBTITLE: Setting up dev environments -->
 
 # Dev Setup
-1. Plug into Ethernet / connect wifi
+1. Setup BIOS and OS
+Plug into Ethernet / connect wifi
 Install Windows and login
 Plugin the flash drive with Ubuntu
 Go to https://forums.lenovo.com/t5/ThinkPad-P-and-W-Series-Mobile/Thinkpad-P50-can-no-longer-get-into-BIOS-from-boot-screen-using/td-p/3498366 and follow the 9 steps to get into the right BIOS
 Update BIOS
-Security -> Secure Boot
-Set to Disabled
-Startup -> Boot
-Move USB HDD... to top of boot order
-Graphics
-Change Hybrid to Discrete graphics
-Save and exit
-Install Ubuntu
-Select “Download updates while installing” and “install 3rd party…” options and press continue
+	1. Security -> Secure Boot
+	1. Set to Disabled
+	1. Startup -> Boot
+	1. Move USB HDD... to top of boot order
+	1. Graphics
+	1. Change Hybrid to Discrete graphics
+	1. Save and exit
+	1. Install Ubuntu
+	1. Select “Download updates while installing” and “install 3rd party…” options and press continue
 Erase disk and install Ubuntu and select the “Encrypt” and “LVM” options. Press continue.
 Ubuntu 18: 
 Enter a security key -- note put it in lastpass -- you will be prompted to enter this key every time you login and there is NO RECOVERY

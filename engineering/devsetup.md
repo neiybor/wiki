@@ -90,20 +90,18 @@
 
 	echo "127.0.0.1    neiybor.local" | sudo tee /etc/hosts
 ```
-Follow instructions here:
-https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04
-Run app
-Try logging in to DB
-
-
+	1. Follow instructions here:
+	1. https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04
+	1. Run app
+	1. Try logging in to DB
+```
 psql -U dev neiybor_api_dev
 # password: dev
-
-
-cd rails-api
-Start server on port 3001:
-rails s -p 3001
-
+```
+	1. Try running backend server
+		1. cd rails-api
+		1. Start server on port 3001:
+		1. rails s -p 3001
 
 Open browser to http://nbr.pizza:3001
 Verify you get a valid JSON response http://nbr.pizza:3001

@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Setting up dev environments -->
 
 # Dev Setup
-Plug into Ethernet / connect wifi
+1. Plug into Ethernet / connect wifi
 Install Windows and login
 Plugin the flash drive with Ubuntu
 Go to https://forums.lenovo.com/t5/ThinkPad-P-and-W-Series-Mobile/Thinkpad-P50-can-no-longer-get-into-BIOS-from-boot-screen-using/td-p/3498366 and follow the 9 steps to get into the right BIOS

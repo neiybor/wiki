@@ -69,28 +69,27 @@
 	# run setup script
 	./config-management/setup-dev.sh
 	```
-The script above changes the .profile file (needed for localstack) so
-log out of Ubuntu and
-log back in
-Optional steps for ops members (skip to next step)
-AWS Codecommit (instructions)
-Easiest to start w/ HTTPS access by generating a username/password
-Save the username/password in lastpass
-Use when prompted for “ops” repo in setup script
-Instructions on setting up a cert
-Create self-signed cert
+	4. The script above changes the .profile file (needed for localstack) so
+		1. log out of Ubuntu and
+		1. log back in
+	1. Optional steps for ops members (skip to next step)
+		1. AWS Codecommit (instructions)
+			1. Easiest to start w/ HTTPS access by generating a username/password
+			1. Save the username/password in lastpass
+			1. Use when prompted for “ops” repo in setup script
+		1. Instructions on setting up a cert
+			1. Create self-signed cert
+	```
+	cd ~
+	mkdir .ssl
+	cd .ssl
+	
+	openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout neiybor.local.key -out neiybor.local.crt
+		<follow prompts
+		Common Name (e.g. server FQDN or YOUR name) []:neiybor.local
 
-
-cd ~
-mkdir .ssl
-cd .ssl
-
-openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout neiybor.local.key -out neiybor.local.crt
-  <follow prompts
-  Common Name (e.g. server FQDN or YOUR name) []:neiybor.local
-
-echo "127.0.0.1    neiybor.local" | sudo tee /etc/hosts
-
+	echo "127.0.0.1    neiybor.local" | sudo tee /etc/hosts
+```
 Follow instructions here:
 https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04
 Run app

@@ -44,31 +44,31 @@
 			1. Send them “skip default output format”
 1. Get & run setup script (recommended)
 	1. Replace RED VALUES with your info
-```
-#install git
-sudo apt update
-sudo apt upgrade
-sudo apt install git
-# configure git
-git config --global color.ui true
-git config --global user.name "FIRSTNAME LASTNAME"
-git config --global user.email "YOUR@EMAIL.com"
-ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com" #use default file location on prompt
-```
+	```
+	#install git
+	sudo apt update
+	sudo apt upgrade
+	sudo apt install git
+	# configure git
+	git config --global color.ui true
+	git config --global user.name "FIRSTNAME LASTNAME"
+	git config --global user.email "YOUR@EMAIL.com"
+	ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com" #use default file location on prompt
+	```
 	1. Upload ssh key just generated to your github account
 	1. Go to https://github.com/settings/keys
 	1. Run command: gedit ~/.ssh/id_rsa.pub
 	1. Copy entire text and paste into new key form
 	1. Download config-management repo
-```
-# download repo
-mkdir ~/neighbor
-cd ~/neighbor
-git clone git@github.com:neiybor/config-management.git
-
-# run setup script
-./config-management/setup-dev.sh
-```
+	```
+	# download repo
+	mkdir ~/neighbor
+	cd ~/neighbor
+	git clone git@github.com:neiybor/config-management.git
+	
+	# run setup script
+	./config-management/setup-dev.sh
+	```
 The script above changes the .profile file (needed for localstack) so
 log out of Ubuntu and
 log back in

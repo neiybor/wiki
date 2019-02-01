@@ -134,19 +134,19 @@
 		1. If you get an error about syncing gradle files click “Try Again”
 		1. Install Gradle
 		1. https://gradle.org/next-steps/?version=4.9&format=bin
-```
-cd ~/Downloads/
-sudo mkdir /opt/gradle
-sudo unzip -d /opt/gradle gradle-4.9-bin.zip
-ls /opt/gradle/gradle-4.9
-```
-		1. Add following to .bashrc (replacing <user> with your username)
-```
-export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
-export ANDROID_HOME="/home/<user>/Android/Sdk"
-export PATH="${PATH}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin"
-export PATH=$PATH:/opt/gradle/gradle-4.9/bin
-```
+		```
+		cd ~/Downloads/
+		sudo mkdir /opt/gradle
+		sudo unzip -d /opt/gradle gradle-4.9-bin.zip
+		ls /opt/gradle/gradle-4.9
+		```
+		1. Add following to .bashrc (replacing `<USER>` with your username)
+		```
+		export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+		export ANDROID_HOME="/home/<user>/Android/Sdk"
+		export PATH="${PATH}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin"
+		export PATH=$PATH:/opt/gradle/gradle-4.9/bin
+		```
 		1. `source .bashrc`
 		1. Remove old Android SDK debugger IF it exists
 			1. `sudo rm /usr/bin/adb`

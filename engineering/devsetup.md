@@ -1,6 +1,10 @@
 <!-- TITLE: Dev Setup -->
 <!-- SUBTITLE: Setting up dev environments -->
 
+See also [Mac Setup](/engineering/macsetup)
+
+-----
+
 # Dev Setup
 1. Setup BIOS and OS
 	1. Plug into Ethernet / connect wifi

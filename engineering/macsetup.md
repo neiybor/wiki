@@ -29,6 +29,7 @@
 	```
 1. Edit Mac hosts file to access https://nbr.pizza.
 	1. Run ‘ifconfig’ in VM terminal to get inet address as shown below:
+	1. 
 	1. Add the following line to Mac hosts file (located at /etc/hosts): 
 	```
 	# replace the inet address below with the one obtained 

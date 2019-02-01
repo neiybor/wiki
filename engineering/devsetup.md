@@ -44,7 +44,7 @@
 			1. Send them “skip default output format”
 1. Get & run setup script (recommended)
 	1. Replace `<VALUES>` with your info
-	1. ```
+	```
 	#install git
 	sudo apt update
 	sudo apt upgrade
@@ -79,7 +79,7 @@
 			1. Use when prompted for “ops” repo in setup script
 		1. Instructions on setting up a cert
 			1. Create self-signed cert
-	```
+			```
 	cd ~
 	mkdir .ssl
 	cd .ssl

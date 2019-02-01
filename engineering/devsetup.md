@@ -77,27 +77,14 @@
 			1. Easiest to start w/ HTTPS access by generating a username/password
 			1. Save the username/password in lastpass
 			1. Use when prompted for “ops” repo in setup script
-		1. Instructions on setting up a cert
-			1. Create self-signed cert
-			```
-	cd ~
-	mkdir .ssl
-	cd .ssl
-	
-	openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout neiybor.local.key -out neiybor.local.crt
-		<follow prompts
-		Common Name (e.g. server FQDN or YOUR name) []:neiybor.local
-
-	echo "127.0.0.1    neiybor.local" | sudo tee /etc/hosts
-```
 	1. Follow instructions here:
 	1. https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04
 	1. Run app
 	1. Try logging in to DB
-```
-psql -U dev neiybor_api_dev
-# password: dev
-```
+	```
+	psql -U dev neiybor_api_dev
+	# password: dev
+	```
 	1. Try running backend server
 		1. cd rails-api
 		1. Start server on port 3001:

@@ -31,9 +31,9 @@
 	1. Install chrome
 		1. Download .deb file - select Save
 		1. Open folder viewer and double click deb file to install
-		1. Install lastpass addon
+		1. Install [Lastpass addon](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en)
 	1. Get access to repos
-	1. Neiybor Github account
+		1. Neiybor Github account
 	1. Setup your AWS account
 		1. For the admin adding the new hire: make sure the new hire is added to the ‘engineers’ group
 			1. Hint: Minimum password length is 16 chars
@@ -102,115 +102,77 @@ psql -U dev neiybor_api_dev
 		1. cd rails-api
 		1. Start server on port 3001:
 		1. rails s -p 3001
-
-Open browser to http://nbr.pizza:3001
-Verify you get a valid JSON response http://nbr.pizza:3001
-cd react-frontend
-Start the node server with HTTPS and the correct hostname by running:
-yarn start
-Browser should open to https://nbr.pizza/
-Install tools
-Install favorite editor
-VS Code - sudo snap install vscode --classic
-
-
-sudo snap install vscode --classic
-Install Debugger for Chrome extension
-Follow setup instructions on extension page
-Install React Dev Tools for Chrome
-Chrome extension to block Google Analytics
-Add *.neighbor.com and neighbor.com to the list of blocked sites
-Another good alternative: Ghostery https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij?hl=en
-
-
-More setup
-Install Heroku CLI (google how to do it) and run heroku plugins:install heroku-config
-Setup default git editor to be VSCode, Emacs, VI, Gedit, …
-git config --global core.editor "code"
-Tutorials
-JavaScript/ES6
-Typescript
-5 Minute Intro
-Ruby/Rails
-React
-Quick start guide
-Redux
-TypeScript React Starter
-Optional setup
-Lastpass extension
-Always launch Chrome listening on a debug port
-
-
-google-chrome --remote-debugging-port=9222
-Google Tag Assistant Chrome extension
-Setup for Android development
-sudo apt install default-jdk
-Enable KVM in BIOS for hardware accelerated virtualization
-Security -> Virtualization
-Enable both Virtualization Technology and Vt-d Feature
-Install Android Studio
-Open SDK Manager
-Install Android SDK versions 25 and above
-Walk through tutorial of creating your first Android app
-After creating app go to the “Run your app” -> “Run on an emulator” step of the tutorial
-If you get an error about syncing gradle files click “Try Again”
-When creating a device
-Install Gradle
-https://gradle.org/next-steps/?version=4.9&format=bin
-
-
+		1. Open browser to http://nbr.pizza:3001
+		1. Verify you get a valid JSON response
+	1. cd react-frontend
+	1. Start the node server with HTTPS and the correct hostname by running:
+	1. yarn start
+	1. Browser should open to https://nbr.pizza/
+1. Install tools
+	1. Install favorite editor
+		1. VS Code
+			1. sudo snap install vscode --classic
+			1. Install Debugger for Chrome extension
+				1. Follow setup instructions on extension page
+	1. Install React Dev Tools for Chrome
+	1. Chrome extension to block Google Analytics
+		1. Add *.neighbor.com and neighbor.com to the list of blocked sites
+		1. Another good alternative: Ghostery https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij?hl=en
+	1. Install Heroku CLI (google how to do it) and run heroku plugins:install heroku-config
+	1. Setup default git editor to be VSCode, Emacs, VI, Gedit, …
+		1. git config --global core.editor "code"
+	1. Configure Chrome to launch listening on a debug port
+		1. Save [Google Chrome](/uploads/engineering/google-chrome.desktop "Google Chrome") to `~/.local/share/applications/google-chrome.desktop`
+		1. Change Path variable to your home directory
+	1. Tutorials
+		1. [JavaScript/ES6](https://www.codecademy.com/learn/introduction-to-javascript)
+		1. Typescript
+			1. [5 Minute Intro](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+		1. [Ruby/Rails](https://www.coursera.org/learn/ruby-on-rails-intro/home/welcome)
+		1. [React](https://reactjs.org/tutorial/tutorial.html)
+			1. [Quick start guide](https://reactjs.org/docs/hello-world.html)
+		1. [Redux](https://redux.js.org/introduction/getting-started)
+		1. [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter#typescript-react-starter)
+	1. Optional setup
+		1. Setup for Android development
+			1. `sudo apt install default-jdk`
+			1. Enable KVM in BIOS for hardware accelerated virtualization
+				1. Security -> Virtualization
+				1. Enable both Virtualization Technology and Vt-d Feature
+			1. Install [Android Studio](https://developer.android.com/studio/install)
+		1. Open SDK Manager
+			1. Install Android SDK versions 25 and above
+		1. [Walk through tutorial of creating your first Android app](https://developer.android.com/training/basics/firstapp/creating-project)
+		1. After creating app, go to the “Run your app” -> “Run on an emulator” step of the tutorial
+		1. If you get an error about syncing gradle files click “Try Again”
+		1. Install Gradle
+		1. https://gradle.org/next-steps/?version=4.9&format=bin
+```
 cd ~/Downloads/
 sudo mkdir /opt/gradle
 sudo unzip -d /opt/gradle gradle-4.9-bin.zip
 ls /opt/gradle/gradle-4.9
-
-
-
-Add following to .bashrc (replacing <user> with your username)
+```
+		1. Add following to .bashrc (replacing <user> with your username)
+```
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
 export ANDROID_HOME="/home/<user>/Android/Sdk"
 export PATH="${PATH}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin"
 export PATH=$PATH:/opt/gradle/gradle-4.9/bin
-
-source .bashrc
-Remove old Android SDK debugger IF it exists
-sudo rm /usr/bin/adb
-Install Cordova
-sudo npm install -g cordova
-cd ~/neiybor/transmogrifier
-cordova platform add android
-Build staging app
-cordova build
-Install apk on emlulator (i.e. after emulator started by Android Studio or command line)
-adb -s emulator-5554 install -r ~/neiybor/transmogrifier/platforms/android/app/build/outputs/apk/debug/app-debug.apk
-Build staging app for release to Play Store for testing
-cordova build --release --buildConfig=build.json
-V1 Android setup
-sudo apt install default-jdk
-Remove old SDK
-sudo rm /usr/bin/adb
-Enable CPU virtualization in BIOS
-P51 - enable both virtualization settings
-Install Android Studio
-Install Android studio into standard ~/Android/Sdk
-Install Gradle
-https://gradle.org/next-steps/?version=4.9&format=bin
-
-
-cd ~/Downloads/
-Sudo mkdir /opt/gradle
-Sudo unzip -d /opt/gradle gradle-4.9-bin.zip
-ls /opt/gradle/gradle-4.9
-
-
-
-Add following to .bashrc
-
-
-export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
-export ANDROID_HOME="~/Android/Sdk"
-export PATH="${PATH}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin"
-export PATH=$PATH:/opt/gradle/gradle-4.9/bin
+```
+		1. `source .bashrc`
+		1. Remove old Android SDK debugger IF it exists
+			1. `sudo rm /usr/bin/adb`
+		1. Install Cordova
+			1. `sudo npm install -g cordova`
+			1. `cd ~/neiybor/transmogrifier`
+			1. `cordova platform add android`
+		1. Build staging app
+			1. `cordova build`
+		1. Install apk on emlulator (i.e. after emulator started by Android Studio or command line)
+			1. `adb -s emulator-5554 install -r ~/neiybor/transmogrifier/platforms/android/app/build/outputs/apk/debug/app-debug.apk`
+		1. Build staging app for release to Play Store for testing
+			1. `cordova build --release --prod`
 
 
 Mac

@@ -43,19 +43,19 @@
 			1. Send them “default region: us-east-1”
 			1. Send them “skip default output format”
 1. Get & run setup script (recommended)
-	1. Replace <VALUES> with your info
-	```
+	1. Replace `<VALUES>` with your info
+	1. ```
 	#install git
 	sudo apt update
 	sudo apt upgrade
 	sudo apt install git
 	# configure git
 	git config --global color.ui true
-	git config --global user.name "FIRSTNAME LASTNAME"
-	git config --global user.email "YOUR@EMAIL.com"
-	ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com" #use default file location on prompt
+	git config --global user.name "<FIRSTNAME LASTNAME>"
+	git config --global user.email "<YOU>@neighbor.com"
+	ssh-keygen -t rsa -b 4096 -C "<YOU>@neighbor.com" #use default file location on prompt
 	```
-	2. Upload ssh key just generated to your github account
+	2. Upload ssh key that generated to your github account
 		1. Go to https://github.com/settings/keys
 		1. Run command: gedit ~/.ssh/id_rsa.pub
 		1. Copy entire text and paste into new key form

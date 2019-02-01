@@ -39,11 +39,15 @@
 	```
 	1. Verify by visiting https://nbr.pizza in your browser.
 1. Create Local Network Share
-	1. In your Files explorer, right click the neighbor folder and click Properties 
+	1. In your Files explorer, right click the neighbor folder and click Properties
+	1. ![Screen Shot 2019 01 16 At 1 17 10 Pm](/uploads/engineering/screen-shot-2019-01-16-at-1-17-10-pm.png "Screen Shot 2019 01 16 At 1 17 10 Pm")
 	1. Click the Local Network Share tab and copy the settings below (the share name will default to whatever you named your folder, probably ‘neighbor.’ Click the Create Share button.
+	1. ![Screen Shot 2019 01 16 At 1 17 40 Pm](/uploads/engineering/screen-shot-2019-01-16-at-1-17-40-pm.png "Screen Shot 2019 01 16 At 1 17 40 Pm")
 	1. Click on the Permissions tab and copy the settings below (leave the Group name as the default, just change the Access setting for Owner, Group and Others to ‘Create and delete files.’
+	1. ![Screen Shot 2019 01 16 At 1 18 33 Pm](/uploads/engineering/screen-shot-2019-01-16-at-1-18-33-pm.png "Screen Shot 2019 01 16 At 1 18 33 Pm")
 1. Access the shared folder from the host (Mac)
-	1. To access the folder from Finder, navigate to Network (under Locations) and click on your VM. From here you will see the shared folder you created. 
+	1. To access the folder from Finder, navigate to Network (under Locations) and click on your VM. From here you will see the shared folder you created.
+	1. ![Screen Shot 2019 01 16 At 1 20 13 Pm](/uploads/engineering/screen-shot-2019-01-16-at-1-20-13-pm.png "Screen Shot 2019 01 16 At 1 20 13 Pm")
 	1. To access the folder from Terminal:
 	```
 	# replace YOUR_SHARED_FILE_NAME with... you guessed it.

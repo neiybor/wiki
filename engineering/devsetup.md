@@ -16,7 +16,7 @@ See also [Mac Setup](/engineering/macsetup)
 			1. Set to Disabled
 		1. Startup -> Boot
 			1. Move USB HDD... to top of boot order
-		1. Graphics
+		1. Graphics (For P51)
 			1. Change Hybrid to Discrete graphics
 		1. Save and exit
 	1. Install Ubuntu

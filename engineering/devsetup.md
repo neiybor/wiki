@@ -113,7 +113,7 @@ See also [Mac Setup](/engineering/macsetup)
 	1. Setup default git editor to be VSCode, Emacs, VI, Gedit, …
 		1. git config --global core.editor "code"
 	1. Configure Chrome to launch listening on a debug port
-		1. Save [Google Chrome](/uploads/engineering/google-chrome.desktop "Google Chrome") to `~/.local/share/applications/google-chrome.desktop`
+		1. Save [Google Chrome](https://drive.google.com/open?id=1kRKIRivPSPq8XD2Lspx6ZMV37plkHu4-) to `~/.local/share/applications/google-chrome.desktop`
 		1. Change Path variable to your home directory
 	1. Tutorials
 		1. [JavaScript/ES6](https://www.codecademy.com/learn/introduction-to-javascript)

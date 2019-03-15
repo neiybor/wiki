@@ -15,7 +15,7 @@
 * 	Dallin: Sign up 25 storage facilities
 
 ### Tony's ORKs
-(90%) Get Google Ad reservation approved CAC to $120
+**(90%) Get Google Ad reservation approved CAC to $120**
 * Drive monthly improvement in CAC
 			* $170 in January (0.0 for $300, 0.33 for $170)
 			* $150 in February (0.0 for $280, 0.33 for $150)
@@ -24,7 +24,7 @@
 * Build and test 6 landing page concepts on Unbounce to increase conversion (0.1 per test) and successfully implement 1 concept (0.4)
 * Complete 8 of the following 10 Adwords projects, focusing on driving down CAC (0.125 per completed project)
 				*Successfully launch new adwords structure, latitude/longitude geo targeting, dynamic ad copy with ad customizers, validate the adwords conversion process, implement new URL parameters, test audiences (and implement if promising), overhaul ad extensions, launch new app campaign strategy, test retargeting campaign, overhaul Bing account
-(10%) Establish feasible digital growth through Facebook & Apple Ads
+**(10%) Establish feasible digital growth through Facebook & Apple Ads**
 * Drive x conversions with Facebook/Apple Ads
 * Launch new strategies on Facebook and Apple Ads (0.5 each)
 

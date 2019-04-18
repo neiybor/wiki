@@ -4,10 +4,10 @@
 ## Office
 ### Internet Access
 #### Employee network
-Name: Neighbor
+Name: Neighbor / Neighbor5
 Pwd: won'tyoubemyN6r
 #### Guest network
-Name: NeighborGuest
+Name: NeighborGuest / NeighborGuest5
 Pwd: FredRogers
 The guest network is rate limited so it will not interfere significantly with the employee network.
 

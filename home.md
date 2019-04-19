@@ -10,7 +10,7 @@
 * [IT](/it)
 
 # [Neighbor Vision](https://docs.google.com/presentation/d/1cFn9-IumT4GFj3IIEo7WHslWisVGoy02RmuE3KI84WA/edit?usp=sharing)
-## Core Purpose
+## [Core Purpose](https://docs.google.com/presentation/d/1cFn9-IumT4GFj3IIEo7WHslWisVGoy02RmuE3KI84WA/edit?usp=sharing)
 **To solve our Neighbors' biggest challenges**
 
 ## Mission

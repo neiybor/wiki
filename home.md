@@ -11,11 +11,11 @@
 
 # Neighbor Vision
 ## Core Purpose
-**To solve our Neighbors' biggest challenges
-**
+**To solve our Neighbors' biggest challenges**
+
 ## Mission
-**Become the largest storage provider in the world by 2025
-**
+**Become the largest storage provider in the world by 2025**
+
 ## Core Values
 **1. Hire and Develop the Best
 2. Hard Working for the Extra Mile

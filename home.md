@@ -9,7 +9,7 @@
 * [Human Resources](/peopleops)
 * [IT](/it)
 
-# [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+# [Neighbor Vision](https://docs.google.com/presentation/d/1cFn9-IumT4GFj3IIEo7WHslWisVGoy02RmuE3KI84WA/edit?usp=sharing)
 ## Core Purpose
 **To solve our Neighbors' biggest challenges**
 

@@ -10,18 +10,9 @@
 * [IT](/it)
 
 # Neighbor Vision
-## Core Purpose
-**To solve our Neighbors' biggest challenges**
-![Screen Shot 2019 04 18 At 9 10 07 Pm](/uploads/screen-shot-2019-04-18-at-9-10-07-pm.png "Screen Shot 2019 04 18 At 9 10 07 Pm")
-
-## Mission
-**Become the largest storage provider in the world by 2025**
-
-## Core Values
-**1. Hire and Develop the Best
-2. Hard Working for the Extra Mile
-3. Promote Family and Community
-4. Be Neighborly**
+![Screen Shot 2019 04 18 At 9 12 13 Pm](/uploads/screen-shot-2019-04-18-at-9-12-13-pm.png "Screen Shot 2019 04 18 At 9 12 13 Pm")
+![Screen Shot 2019 04 18 At 9 12 25 Pm](/uploads/screen-shot-2019-04-18-at-9-12-25-pm.png "Screen Shot 2019 04 18 At 9 12 25 Pm")
+![Screen Shot 2019 04 18 At 9 12 39 Pm](/uploads/screen-shot-2019-04-18-at-9-12-39-pm.png "Screen Shot 2019 04 18 At 9 12 39 Pm")
 # How to do stuff
 
 ## Creating and Editing Pages

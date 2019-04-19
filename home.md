@@ -9,7 +9,7 @@
 * [Human Resources](/peopleops)
 * [IT](/it)
 
-# [Neighbor Vision] (https://docs.google.com/presentation/d/1cFn9-IumT4GFj3IIEo7WHslWisVGoy02RmuE3KI84WA/edit?usp=sharing "Neighbor Vision Description")
+# [Neighbor Vision](https://docs.google.com/presentation/d/1cFn9-IumT4GFj3IIEo7WHslWisVGoy02RmuE3KI84WA/edit?usp=sharing "Neighbor Vision Description")
 ## Core Purpose
 **To solve our Neighbors' biggest challenges**
 

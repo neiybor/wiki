@@ -21,6 +21,8 @@
 2. Hard Working for the Extra Mile
 3. Promote Family and Community
 4. Be Neighborly**
+
+[Neighbor Vision Details](https://docs.google.com/presentation/d/1cFn9-IumT4GFj3IIEo7WHslWisVGoy02RmuE3KI84WA/edit?usp=sharing "Neighbor Vision Details")
 # How to do stuff
 
 ## Creating and Editing Pages

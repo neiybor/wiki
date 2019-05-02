@@ -26,7 +26,7 @@
 # How to do stuff
 
 ## Creating and Editing Pages
-Every page on the site is built with Markdown.  Here's a [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for the sytax.
+Every page on the site is built with Markdown.  Here's a [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for the syntax.
 
 ## Adding a new user
 1. Login as a site admin (talk to sean@neighbor.com for creds)

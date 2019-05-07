@@ -4,7 +4,7 @@
 # Test Suite
 ***If you find a bug or something wrong:***
 	1. Take a screenshot if you can
-	2. Quick description of bug
+	2. Write down quick description of bug
 	3. Send to Paul via email/slack
 ## Host Experience
 1. Create a new listing as a new user

@@ -1,4 +1,4 @@
-<!-- TITLE: Ios App -->
+<!-- TITLE: iOS App -->
 <!-- SUBTITLE: iOS Device Testing -->
 
 # Test Suite

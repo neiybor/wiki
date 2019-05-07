@@ -1,5 +1,5 @@
 <!-- TITLE: Device Testing -->
 <!-- SUBTITLE: A quick summary of Device Testing -->
 # Devices
-* [iOS App](/device-testing/ios-app)
-* [Android App](/device-testing/android-app)
+* [iOS App](/engineering/device-testing/ios-app)
+* [Android App](/engineering/device-testing/android-app)

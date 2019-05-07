@@ -6,6 +6,8 @@
 	1. Take a screenshot if you can
 	2. Write down quick description of bug
 	3. Send to Paul via email/slack
+
+***If you need a test device, come to the mobile apps room***
 ## Host Experience
 1. Create a new listing as a new user
 2. Create a new listing as a current user

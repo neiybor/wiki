@@ -33,4 +33,4 @@ https://goo.gl/forms/lGpcKhL8P6Ymg3Eu2
 Open Google Calendar > Go to Settings > Add Calendar > Subscribe to calendar > Search "Neighbor Time-off"
 
 Or use the following link:
-https://calendar.google.com/calendar/embed?src=neighbor.com_8b3001rgahpemq7u1ut6mijv14%40group.calendar.google.com&ctz=America%2FDenver
+https://calendar.google.com/calendar?cid=bmVpZ2hib3IuY29tXzhiMzAwMXJnYWhwZW1xN3UxdXQ2bWlqdjE0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20

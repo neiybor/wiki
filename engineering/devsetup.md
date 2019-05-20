@@ -146,7 +146,7 @@ See also [Mac Setup](/engineering/macsetup)
 		```
 		1. Add following to .bashrc (replacing `<USER>` with your username)
 		```
-		export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+		export JAVA_HOME="/usr/lib/jvm/default-java"
 		export ANDROID_HOME="/home/<user>/Android/Sdk"
 		export PATH="${PATH}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin"
 		export PATH=$PATH:/opt/gradle/gradle-4.9/bin

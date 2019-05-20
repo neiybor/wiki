@@ -1,6 +1,7 @@
 <!-- TITLE: Dev Setup Issues -->
 <!-- SUBTITLE: Common gotchas and workarounds -->
 
+See [Dev Setup](/engineering/dev-setup)
 # Dev Setup Issues
 ## Debugging localstack
 Run `localstack --debug start`

@@ -2,6 +2,7 @@
 <!-- SUBTITLE: Setting up dev environments -->
 
 See also [Mac Setup](/engineering/macsetup)
+For debugging see [Setup Issues](/engineering/setup-issues)
 
 -----
 

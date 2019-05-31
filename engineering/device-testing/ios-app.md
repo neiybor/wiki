@@ -23,7 +23,7 @@
 	b. View user profile from conversation
 	c. Turn off wifi and make sure you can't send a message
 ## Renter Experience
-1. Reserve Listing with New Search Flow
+1. Reserve Listing 
 2. Save some listings
 	a. Save multiple listings
 	b. Reserve a listing from your saved list

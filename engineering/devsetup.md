@@ -103,7 +103,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 1. Install tools
 	1. Install favorite editor
 		1. VS Code
-			1. sudo snap install vscode --classic
+			1. sudo snap install code --classic
 			1. Install Debugger for Chrome extension
 				1. Follow setup instructions on extension page
 	1. Install React Dev Tools for Chrome

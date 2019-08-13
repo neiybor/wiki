@@ -44,3 +44,12 @@ In Amazon Certificate Manager (ACM) upload the certificate as follows.
 1. In the `Certificate body` input paste the contents of the .crt file.
 2. In the `Certificate private key` input paste the contents of the .key file.
 3. In the `Certificate chain` input paste the contents of the .ca-bundle file.
+
+## Certificate uses
+When changing the Neighbor.com certificate here are places that will need to be updated:
+* cloudfront distro for intercom
+* cloudfront distro for naked domain
+* cloudfront distro for www.neighbor.com
+* blog server
+* cms / drupal server
+* heroku wiki server

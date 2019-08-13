@@ -50,6 +50,7 @@ When changing the Neighbor.com certificate here are places that will need to be 
 * cloudfront distro for intercom
 * cloudfront distro for naked domain
 * cloudfront distro for www.neighbor.com
+* heroku frontend server
 * blog server
 * cms / drupal server
 * heroku wiki server

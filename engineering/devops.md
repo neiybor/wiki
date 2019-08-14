@@ -53,6 +53,6 @@ When changing the Neighbor.com certificate here are places that will need to be 
 * heroku frontend server
 * blog server
   * on ec2 machine at `/home/ubuntu/ssl/star.neighbor.com.pem` and
-  * ELB listener for port 443)
+  * ELB listener for port 443
 * cms / drupal server
 * heroku wiki server

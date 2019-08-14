@@ -55,4 +55,5 @@ When changing the Neighbor.com certificate here are places that will need to be 
   * on ec2 machine at `/home/ubuntu/ssl/star.neighbor.com.pem` and
   * ELB listener for port 443
 * cms / drupal server
+  * https://docs.bitnami.com/aws/how-to/generate-install-lets-encrypt-ssl/
 * heroku wiki server

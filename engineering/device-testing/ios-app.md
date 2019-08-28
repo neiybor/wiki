@@ -35,16 +35,43 @@
 	c. Trust And Safety - Verify Trust and Safety Page shows
 	d. Help - Verify both options (FAQ page shows, intercom shows)
 ## Renter Experience
-1. Reserve Listing through new Search flow
+1. Test Reserving Listings
+  a. Reserve Listing through new normal flow (use filters and verify correctness/quality of results)
+	b. Reserve listing via 3D touch if available
 2. Save some listings
 	a. Save multiple listings
+	b. Save some listings via 3D touch if available
 	b. Reserve a listing from your saved list
 	c. Delete all saved listings
-3. Send some referrals/invites as a new user
+3. Test Rentals Page
+	a. Verify correctness of pending reservations and rented space
+	b. Test a Pending Reservation (click into a pending reservation)
+		i. Click listing title and verify correct listing detail page is showing
+		ii. Click Next Steps verify info is correct and address is not showing
+		iii. Click Message and verify you are messaging the host, send some messages
+		iv. Click Cancel and Confirm cancellation, verify listing is no longer in pending reservations
+	c. Test A Rented Space (click into a rented space)
+		i. Same as above
+		ii. Click Next Steps, verify correct info and address is showing, click address to verify link to maps/directions
+		iii. Same as above
+		iv. Same as above (except verify the listing is no longer in rented space)
+4. Send some referrals/invites as a new user
 	a. Send an invite to one email
   b. Send an invite to several emails (at once)
 	c. View Track Referrals and verify correctness
   d. View Leaderboard and verify correctness
-4. Use the Referral Rank Demo/Tutorial (Referral > Track Referrals > How do I improve my rank?)
+5. Use the Referral Rank Demo/Tutorial (Referral > Track Referrals > How do I improve my rank?)
   a. Try each of the options
-	b. Use "Snap back to reality"
+	b. Use "Snap back to reality", verify data is correct
+6. Test Profile Page
+	a. Public Information - Change public info, save changes, and verify that the changes were saved
+	b. Private Information - Reverify Phone Number, Change Password
+	c. Payment Methods - Test Pay as a Renter, enter in credit card ('42' repeated until it is completely filled), verify Manage Host Payments brings up Stripe Dashboard
+	d. App Icons - change the app icon a few times and verify it actually changes
+7. Test Host Onboarding (on an account that is not a host) Profile > Learn about hosting
+		a. Click "See how much you could earn", verify listing calculator shows
+		b. Change input on listing calculator and verify earnings change
+		c. Click "Learn more about trust and safety" on second page, verify trust and safety page shows
+		d. Verify Yearly Potential reflects earnings from earnings calculator
+		e. Verify List Your Space button starts listing creation flow
+		f. Go back to renter profile page and verify potential earnings is still correct

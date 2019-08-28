@@ -17,11 +17,23 @@
 	c. Change Price
 	d. Change First Month Discount
 	e. Change Photos
-4. Ensure Progress Page is showing correct results with your current listings
-5. Test Inbox
+	f. Share an unreserved listing
+	g. Archive & Unarchive an unreserved listing
+4. Test Inbox
 	a. Send a few messages (some very long ones too)
 	b. View user profile from conversation
 	c. Turn off wifi and make sure you can't send a message
+	d. Verify that most recent messages/conversations are at the top of the inbox
+5. Test Progress Page (click individual listings to access these) - verify correctness on progress page after each test
+	a. Test earnings by viewing payout sheet for some listings and verifying correctness
+	b. Test page views by promoting some listings
+	c. Test price score by changing some listings' prices to be too high, too low, and just right (listings without cities/states will not have a recommended price range displayed)
+	d. Test First Month Discount by turning it on and off for some listings
+6. Test Profile Page
+	a. Siri Shortcuts - add a phrase if one is not already there, use the shortcut
+	b. Review Our App - test both thumbs up (verify it goes to app store) and thumbs down (send negative feedback), DO NOT leave a review on the app store
+	c. Trust And Safety - Verify Trust and Safety Page shows
+	d. Help - Verify both options (FAQ page shows, intercom shows)
 ## Renter Experience
 1. Reserve Listing through new Search flow
 2. Save some listings

@@ -27,7 +27,7 @@
 5. Test Progress Page (click individual listings to access these) - verify correctness on progress page after each test
 	a. Test earnings by viewing payout sheet for some listings and verifying correctness
 	b. Test page views by promoting some listings
-	c. Test price score by changing some listings' prices to be too high, too low, and just right (listings without cities/states will not have a recommended price range displayed)
+	c. Test price score by changing some listings' prices to be too high, too low, and just right
 	d. Test First Month Discount by turning it on and off for some listings
 6. Test Profile Page
 	a. Siri Shortcuts - add a phrase if one is not already there, use the shortcut

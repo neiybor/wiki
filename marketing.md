@@ -23,7 +23,7 @@
 	1. Continue Supply Growth
 		2. Paid listing published CACs [<$80](https://docs.google.com/spreadsheets/d/1_Ng81vuBuLqMuNmOHqQD3KZ8BQ6c35Bz7B7WxoR7DCg/edit#gid=1092385933) (Tony)
 		3. Convert 50% of new draft listings in LA/Denver (Dallin)
-		5. Photograph [100 LA hosts' spaces](https://docs.google.com/spreadsheets/d/1_Ng81vuBuLqMuNmOHqQD3KZ8BQ6c35Bz7B7WxoR7DCg/edit#gid=666527039) (Dallin)
+		5. Photograph [80 LA hosts' spaces](https://docs.google.com/spreadsheets/d/1_Ng81vuBuLqMuNmOHqQD3KZ8BQ6c35Bz7B7WxoR7DCg/edit#gid=666527039) (Dallin)
 		6. Carry out 2-3 events/week in Utah (James)
 1. SEO/User Self-Reliance
 	2. 	Write 1 LA/Denver specific blog article (Everyone)

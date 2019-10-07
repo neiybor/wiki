@@ -22,7 +22,7 @@
 		2. $400 new MRR in Utah each week
 		3. 50 new Craigslist/FB crosspostings each week (Bryce)
 	1. Continue Supply Growth
-		2. Paid listing published CACs <$80 (Tony)
+		2. Paid listing published CACs [<$80](https://docs.google.com/spreadsheets/d/1_Ng81vuBuLqMuNmOHqQD3KZ8BQ6c35Bz7B7WxoR7DCg/edit#gid=1092385933) (Tony)
 		3. Convert 50% of new draft listings in LA/Denver (Dallin)
 		5. Photograph 25% of LA hosts (Dallin)
 		6. Carry out 2-3 events/week in Utah (James)

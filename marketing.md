@@ -15,9 +15,9 @@
 # Marketing Goals 2019
 ## Q4
 ### Goals
-1. [SEO](https://docs.google.com/document/d/1tqwx4QG0SMv3fcWsfUhQkE7NUAhLY6omfYaN-xiXCmI/edit#)
-1. User self service / scale CS
-	1. Increase reservation approval rate from 65% in Q3 to 70% in Q4
+1. [Metrics](https://docs.google.com/spreadsheets/d/1_Ng81vuBuLqMuNmOHqQD3KZ8BQ6c35Bz7B7WxoR7DCg/edit#gid=150015692)
+1. $20,000 MRR Outside of Utah
+	1. $16,000 MRR in California 
 		1. Oct. 66%
 		2. Nov. 70%
 		3. Dec. 75%

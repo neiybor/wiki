@@ -26,8 +26,8 @@
 		3. Convert 50% of new draft listings in LA/Denver (Dallin)
 		5. Photograph 25% of LA hosts (Dallin)
 		6. Carry out 2-3 events/week in Utah (James)
-	1. SEO/User Self-Reliance
-		2. 	Write 1 LA/Denver specific blog article (Everyone)
-		3. 	Synthesize Reforge info each week into action 3 items each week (Preston)
+1. SEO/User Self-Reliance
+	2. 	Write 1 LA/Denver specific blog article (Everyone)
+	3. 	Synthesize Reforge info each week into action 3 items each week (Preston)
 
 

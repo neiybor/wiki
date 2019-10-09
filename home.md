@@ -13,10 +13,10 @@
 ### Search Engine Optimization
 **Increase our ranking in Google search results, esp. dynamic landing pages**
 
-## User Self-Reliance
+### User Self-Reliance
 **Empower users with the tools and education they need to be successful Neighbors without intervention**
 
-## LA / Denver Revenue Growth
+### LA / Denver Revenue Growth
 **1. SEO
 2. User-self reliance
 3. Build marketing engine**

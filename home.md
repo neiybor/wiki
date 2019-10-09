@@ -9,6 +9,20 @@
 * [Human Resources](/peopleops)
 * [IT](/it)
 
+# Q4 2019 Goals
+### Search Engine Optimization
+**Increase our ranking in Google search results, esp. dynamic landing pages**
+
+## User Self-Reliance
+**Empower users with the tools and education they need to be successful Neighbors without intervention**
+
+## LA / Denver Revenue Growth
+**1. SEO
+2. User-self reliance
+3. Build marketing engine**
+
+[Q4 2019 Goals Doc](https://docs.google.com/document/d/1P9zTjpZ5L1qstiusrna4suGilt-l_fRNckTRo4YCmvM/edit "Q4 2019 Goals Doc")
+
 # Neighbor Vision
 ## Core Purpose
 **To solve our Neighbors' biggest challenges**

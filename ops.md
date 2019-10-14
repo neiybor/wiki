@@ -20,7 +20,7 @@ Vision: By the end of Q4 2019, regarding Neighbor SEO:
 **4. 3 A/B Tests released to increase relevance**
 **5. 4 blog articles published** (including Self Storage Industry Data article)
 
-[Details] (https://docs.google.com/document/d/1tqwx4QG0SMv3fcWsfUhQkE7NUAhLY6omfYaN-xiXCmI/edit?usp=sharing)
+Details - https://docs.google.com/document/d/1tqwx4QG0SMv3fcWsfUhQkE7NUAhLY6omfYaN-xiXCmI/edit?usp=sharing
 
 # Customer Success
 ## Q4 2019 Goals

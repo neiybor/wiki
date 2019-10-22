@@ -9,6 +9,7 @@
 				1. 	Status = "published" or "archived" ("draft" and "deleted" not included)
 							1. 	"Archived" listings only count as "Listing Published" during the time at which their status = "published" 
 				2. Length of time as "published" does not exclude a listing as a Listing Published (ex - even if the listing is archived 2 minutes after being published it is considered as a Published Listing in that time)
+				3. If the space was owned by a deleted user then the space was counted as a "Listing Published" during the time that the above criteria were met and the host was not deleted
 3. **Listing Published (P2P)**
 				1. Any "Listing Published" that doesn't have "enterprise" in the user metadata
 4. **Listing Published (Enterprise)**

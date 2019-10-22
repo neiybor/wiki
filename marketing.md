@@ -1,5 +1,5 @@
 <!-- TITLE: Marketing -->
-<!-- SUBTITLE: New Employee Onboarding-->
+<!-- SUBTITLE: -->
 
 # Marketing Goals 2019
 ## KPI Index

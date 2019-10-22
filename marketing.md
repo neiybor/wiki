@@ -4,11 +4,10 @@
 # Marketing Goals 2019
 ## KPI Index
 1. **Registration**
-				1. 	Current and "deleted" registrations
+				1. 	Current and "deleted" registrations ("deleted" are only counted as registrations for the period in which they were not deleted)
 2. **Reservation**
 				1. Must have a unique reservation ID and must collect >$0.01 to be considered a reservation
 				2. Cannot be canceled, denied or refunded
-						3. asdf
 3. **Listing Published**
 				1. 	Status = "published", "deleted", or "archived" ("draft" not included)
 							* "Archived" and "deleted" listings only count as Listing Published during the time at which they were in the "published" status
@@ -18,13 +17,16 @@
 4. **Listing Published (Enterprise)**
 				1. Any listing published that does have "enterprise" in the user metadata
 5. **Gross Revenue**
-				1. .
+				1. Neighbor service fee + Neighbor host price + Neighbor processing fee
+				2. Money must actually be collected (this factors in 50% off the first month)
 6. **Net Revenue**
-				1. 
-7. **New Revenue**
-				1. Gross revenue from approved reservations added to Neighbor's recurring MRR
+				1. Neighbor service fee + (processing fee - 2.9% * gross revenue)
+				2. Money must actually be collected (this factors in 50% off the first month)
 8. **MRR**
-
+				1. Total "Gross Revenue" expected to be collected in a 1 month period (based off of reservation start date)
+				2. Is NOT affected by 50% off the first month (not necessarily the amount first collected)
+9. **New MRR**
+				1. Money added to "MRR" metric within a given period.
 
 		
 # Marketing Goals 2019

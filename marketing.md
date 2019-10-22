@@ -1,17 +1,13 @@
 <!-- TITLE: Marketing -->
 <!-- SUBTITLE: New Employee Onboarding-->
 
-# Programs to get log into
-* Kissmetrics: 
-* Last Pass
-* Asana
-* Google Analytics
-* Unbounce
-* Grow
-* Google Ads
-* New Gmail
-* Slack
-
+# Marketing Goals 2019
+## KPI Index
+1. Registration
+	1. Current and "deleted" registrations
+2. Listing Published
+	3. Status = "published", "deleted", or "archived" ("draft" not included)
+		4. "Archived" and "deleted" listings only count as Listing Published during the time at which they were in the "published" status
 # Marketing Goals 2019
 ## Q4
 ### Goals
@@ -29,4 +25,13 @@
 	2. 	Write 1 LA/Denver specific blog article (Everyone)
 	3. 	Synthesize Reforge info each week into action 3 items each week (Preston)
 
-
+# Programs to get log into
+* Kissmetrics: 
+* Last Pass
+* Asana
+* Google Analytics
+* Unbounce
+* Grow
+* Google Ads
+* New Gmail
+* Slack

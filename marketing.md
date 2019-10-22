@@ -5,17 +5,17 @@
 ## KPI Index
 1. **Registration**
 				1. 	Current and "deleted" registrations
-2. Reservation
+2. **Reservation**
 				1. Must have a unique reservation ID and must collect >$0.01 to be considered a reservation
 				2. Cannot be canceled, denied or refunded
 						3. asdf
-**3. Listing Published**
+3. **Listing Published**
 				1. 	Status = "published", "deleted", or "archived" ("draft" not included)
 							* "Archived" and "deleted" listings only count as Listing Published during the time at which they were in the "published" status
 				2. Length of time as "published" does not exclude a listing as a Listing Published (ex - even if the listing is archived 2 minutes after being published it is considered as a Published Listing in that time)
-**3. Listing Published (P2P)**
+3. **Listing Published (P2P)**
 				1. Any listing published that doesn't have "enterprise" in the user metadata
-**4. Listing Published (Enterprise)**
+4. **Listing Published (Enterprise)**
 				1. Any listing published that does have "enterprise" in the user metadata
 		
 # Marketing Goals 2019

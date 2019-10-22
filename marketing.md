@@ -5,17 +5,19 @@
 ## KPI Index
 1. **Registration**
 				1. 	Current and "deleted" registrations ("deleted" are only counted as registrations for the period in which they were not deleted)
-2. **Reservation**
+2. **Listing Published**
+				1. 	Status = "published", "deleted", or "archived" ("draft" not included)
+							1. 	"Archived" and "deleted" listings only count as Listing Published during the time at which they were in the "published" status
+				2. Length of time as "published" does not exclude a listing as a Listing Published (ex - even if the listing is archived 2 minutes after being published it is considered as a Published Listing in that time)
+				3. Deleted users?
+3. **Listing Published (P2P)**
+				1. Any "Listing Published" that doesn't have "enterprise" in the user metadata
+4. **Listing Published (Enterprise)**
+				1. Any "Listing published" that does have "enterprise" in the user metadata
+5. **Reservation**
 				1. Must have a unique reservation ID and must collect >$0.01 to be considered a reservation
 				2. Cannot be canceled, denied or refunded
-3. **Listing Published**
-				1. 	Status = "published", "deleted", or "archived" ("draft" not included)
-							* "Archived" and "deleted" listings only count as Listing Published during the time at which they were in the "published" status
-				2. Length of time as "published" does not exclude a listing as a Listing Published (ex - even if the listing is archived 2 minutes after being published it is considered as a Published Listing in that time)
-3. **Listing Published (P2P)**
-				1. Any listing published that doesn't have "enterprise" in the user metadata
-4. **Listing Published (Enterprise)**
-				1. Any listing published that does have "enterprise" in the user metadata
+				3. If the first two points are met then the reservation is counted even if the user and/or the listings has been deleted
 5. **Potential Revenue**
 				1. Neighbor service fee + Neighbor host price + Neighbor processing fee for all approved reservation requests (approved attempt not necessarily approved from host)
 				2. Reservations that 

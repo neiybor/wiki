@@ -17,6 +17,15 @@
 				1. Any listing published that doesn't have "enterprise" in the user metadata
 4. **Listing Published (Enterprise)**
 				1. Any listing published that does have "enterprise" in the user metadata
+5. **Gross Revenue**
+				1. .
+6. **Net Revenue**
+				1. 
+7. **New Revenue**
+				1. Gross revenue from approved reservations added to Neighbor's recurring MRR
+8. **MRR**
+
+
 		
 # Marketing Goals 2019
 ## Q4

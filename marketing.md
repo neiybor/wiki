@@ -29,7 +29,7 @@
 				1. Neighbor service fee + (processing fee - 2.9% * gross revenue)
 				2. Money must actually be collected (this factors in 50% off the first month)
 8. **MRR**
-				1. Total "Gross Revenue" expected to be collected in a 1 month period (based off of **reservation "start_date"**)
+				1. Total "Gross Revenue" expected to be collected in a 1 month period (based off of reservation **"start_date"**)
 				2. Is NOT affected by 50% off the first month (not necessarily the amount first collected)
 9. **New MRR**
 				1. Money added to "MRR" metric within a given period (based off of reservation **"created_at"** date)

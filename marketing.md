@@ -4,10 +4,10 @@
 # Marketing Goals 2019
 ## KPI Index
 1. Registration
-	1. Current and "deleted" registrations
+		* Current and "deleted" registrations
 2. Listing Published
-	3. Status = "published", "deleted", or "archived" ("draft" not included)
-		4. "Archived" and "deleted" listings only count as Listing Published during the time at which they were in the "published" status
+		* Status = "published", "deleted", or "archived" ("draft" not included)
+				* "Archived" and "deleted" listings only count as Listing Published during the time at which they were in the "published" status
 # Marketing Goals 2019
 ## Q4
 ### Goals

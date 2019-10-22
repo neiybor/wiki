@@ -13,3 +13,5 @@
 		1. `rake api:pull_km REPORT_ID={report ID} REPORT_BUCKET=neiybor-kissmetrics-production REPORT_KEY={report name}.csv`
 3. Create a presigned URL for the csv file in S3 `aws s3 presign --expires-in 63072000 neiybor-kissmetrics-production/{report name}.csv`
 4. Import data into Google sheets using the IMPORTDATA() function, passing in the URL generated in the previous step
+
+Operations and Marketing is using this sheet to organize Kissmetric export requests: https://docs.google.com/spreadsheets/d/1sCKheSExk0B9hn5xn-0Y9Mh09CentXsps5Tmb6bKzKY/edit?usp=sharing

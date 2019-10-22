@@ -3,7 +3,7 @@
 
 # Marketing Goals 2019
 ## KPI Index
-1. Registration
+1. **Registration**
 				1. 	Current and "deleted" registrations
 2. Reservation
 				1. Must have a unique reservation ID and must collect >$0.01 to be considered a reservation

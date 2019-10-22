@@ -6,10 +6,9 @@
 1. **Registration**
 				1. 	Current and "deleted" registrations ("deleted" are only counted as registrations for the period in which they were not deleted)
 2. **Listing Published**
-				1. 	Status = "published", "deleted", or "archived" ("draft" not included)
-							1. 	"Archived" and "deleted" listings only count as Listing Published during the time at which they were in the "published" status
+				1. 	Status = "published" or "archived" ("draft" and "deleted" not included)
+							1. 	"Archived" listings only count as "Listing Published" during the time at which their status = "published" 
 				2. Length of time as "published" does not exclude a listing as a Listing Published (ex - even if the listing is archived 2 minutes after being published it is considered as a Published Listing in that time)
-				3. Deleted users?
 3. **Listing Published (P2P)**
 				1. Any "Listing Published" that doesn't have "enterprise" in the user metadata
 4. **Listing Published (Enterprise)**

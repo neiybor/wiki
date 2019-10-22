@@ -8,6 +8,7 @@
 **2. Reservation**
 				1. Must have a unique reservation ID and must collect >$0.01 to be considered a reservation
 				2. Cannot be canceled, denied or refunded
+						3. asdf
 **3. Listing Published**
 				1. 	Status = "published", "deleted", or "archived" ("draft" not included)
 							* "Archived" and "deleted" listings only count as Listing Published during the time at which they were in the "published" status

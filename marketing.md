@@ -16,7 +16,7 @@
 				1. Any "Listing published" that does have "enterprise" in the user metadata
 5. **Reservation**
 				1. Must have a unique reservation ID and must collect >$0.01 to be considered a reservation
-				2. Cannot be canceled, denied or refunded
+				2. Cannot be canceled, denied, voided or refunded
 				3. If the first two points are met then the reservation is counted even if the user and/or the listings has been deleted
 5. **Potential Revenue**
 				1. Neighbor service fee + Neighbor host price + Neighbor processing fee for all approved reservation requests (approved attempt not necessarily approved from host)

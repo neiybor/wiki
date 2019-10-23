@@ -4,25 +4,30 @@
 # Marketing Goals 2019
 ## KPI Index
 1. **Registration**
-				1. 	Current and "deleted" registrations ("deleted" are only counted as registrations for the period in which they were not deleted)
+				1. 	Current and not "deleted" registrations
+2. 	**Active Lisitngs**
+				1. Status = "published" or "archived" ("draft" and "deleted" not included)
+							1. 	"Archived" listings only count as "Listing Published" during the time at which their status = "published" 
+				2. Length of time as "published" does not exclude a listing as a Listing Published (ex - even if the listing is archived 2 minutes after being published it is considered as a Published Listing in that time)
+				~~3. If the space was owned by a deleted user then the space was counted as a "Listing Published" during the time that the above criteria were met and the host was not deleted~~
 2. **Listing Published**
 				1. 	Status = "published" or "archived" ("draft" and "deleted" not included)
 							1. 	"Archived" listings only count as "Listing Published" during the time at which their status = "published" 
 				2. Length of time as "published" does not exclude a listing as a Listing Published (ex - even if the listing is archived 2 minutes after being published it is considered as a Published Listing in that time)
-				3. If the space was owned by a deleted user then the space was counted as a "Listing Published" during the time that the above criteria were met and the host was not deleted
+				~~3. If the space was owned by a deleted user then the space was counted as a "Listing Published" during the time that the above criteria were met and the host was not deleted~~
 3. **Listing Published (P2P)**
-				1. Any "Listing Published" that doesn't have "enterprise" in the user metadata
+				1. All criteria under "Listing Published", plus:
+				2. Any "Listing Published" that doesn't have "enterprise" in the user metadata
 4. **Listing Published (Enterprise)**
-				1. Any "Listing published" that does have "enterprise" in the user metadata
-5. **New Reservation**
-				1. Must have a unique reservation ID and must collect >$0.01 to be considered a reservation
-				2. Cannot be canceled, denied, voided or refunded
-				3. If the first two points are met then the reservation is counted even if the user and/or the listings has been deleted
-				4. Attributed to the "created_at" date
-5. **Existing Reservations**
+				1. All criteria under "Listing Published", plus:
+				2. Any "Listing published" that does have "enterprise" in the user metadata
+5. **Reservation**
+				1. Must have at least one payment that paid and is not void OR not refunded 
+				~~2. If the first two points are met then the reservation is counted even if the user and/or the listings has been deleted~~
+				3. Attributed to the "created_at" date
+5. **Active Reservations**
 				1. Same as a "New Reservation" except the quantity is determined by the sum of reservations in a given month that:
-							1.  collect >$0.01 and
-							2. the reservation "start_date" needs to have started in that month
+							1. the reservation "paid_period_start_date" needs to have started in that month
 6. **Potential Revenue**
 				1. Neighbor service fee + Neighbor host price + Neighbor processing fee for all approved reservation requests (approved attempt not necessarily approved from host)
 				2. Reservations that 
@@ -39,6 +44,12 @@
 10. **New MRR**
 				1. Money added to "MRR" metric within a given period (based off of reservation **"created_at"** date)
 				2. Ex - weekly revenue goal looks at "New MRR"
+
+
+Other metrics to build:
+1. Reservation Request
+2. Reservation Approved
+3. Active Reservation (by pay period?) (snapshot)
 
 		
 # Marketing Goals 2019

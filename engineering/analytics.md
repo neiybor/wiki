@@ -11,6 +11,12 @@
 		3. Replace the report ID, report name, and date
 	2. For a people report schedule the report like this
 		1. `rake api:pull_km REPORT_ID={report ID} REPORT_BUCKET=neiybor-kissmetrics-production REPORT_KEY={report name}.csv`
+	3. For a custom report (e.g. cohort with a population) pass a `QUERY_URL` parameter
+		1. Run the report you want in Kissmetrics UI with Chrome dev tools open.
+		1. See the JSON it posts to create the query.
+		1. Upload it to a public location (like the neiybor-public S3 bucket)
+		1. Pass that URL to the job in the `QUERY_URL` parameter
+		1. Like QUERY_URL=https://neiybor-public.s3-us-west-1.amazonaws.com/analytics/KMCohortWithPopulationFormatted.json
 3. Create a presigned URL for the csv file in S3 `aws s3 presign --expires-in 63072000 neiybor-kissmetrics-production/{report name}.csv`
 4. Import data into Google sheets using the IMPORTDATA() function, passing in the URL generated in the previous step
 

@@ -14,24 +14,29 @@
 				1. Any "Listing Published" that doesn't have "enterprise" in the user metadata
 4. **Listing Published (Enterprise)**
 				1. Any "Listing published" that does have "enterprise" in the user metadata
-5. **Reservation**
+5. **New Reservation**
 				1. Must have a unique reservation ID and must collect >$0.01 to be considered a reservation
 				2. Cannot be canceled, denied, voided or refunded
 				3. If the first two points are met then the reservation is counted even if the user and/or the listings has been deleted
-5. **Potential Revenue**
+				4. Attributed to the "created_at" date
+5. **Existing Reservations**
+				1. Same as a "New Reservation" except the quantity is determined by the sum of reservations in a given month that:
+							1.  collect >$0.01 and
+							2. the reservation "start_date" needs to have started in that month
+6. **Potential Revenue**
 				1. Neighbor service fee + Neighbor host price + Neighbor processing fee for all approved reservation requests (approved attempt not necessarily approved from host)
 				2. Reservations that 
-6. **Gross Revenue**
+7. **Gross Revenue**
 				1. Money collected from "approved" reservations within a given time period
 				2. Sum of Neighbor service fee + Neighbor host price + Neighbor processing fee
 				3. Money must actually be collected (this factors in 50% off the first month)
-7. **Net Revenue**
+8. **Net Revenue**
 				1. Neighbor service fee + (processing fee - 2.9% * gross revenue)
 				2. Money must actually be collected (this factors in 50% off the first month)
-8. **MRR**
+9. **MRR**
 				1. Total "Gross Revenue" expected to be collected in a 1 month period (based off of reservation **"start_date"**)
 				2. Is NOT affected by 50% off the first month (not necessarily the amount first collected)
-9. **New MRR**
+10. **New MRR**
 				1. Money added to "MRR" metric within a given period (based off of reservation **"created_at"** date)
 				2. Ex - weekly revenue goal looks at "New MRR"
 

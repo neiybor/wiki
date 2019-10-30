@@ -31,8 +31,8 @@ https://goo.gl/forms/lGpcKhL8P6Ymg3Eu2
 While logged into your Neighbor GSuite calendar, click on the link below:
 https://calendar.google.com/calendar?cid=bmVpZ2hib3IuY29tXzhiMzAwMXJnYWhwZW1xN3UxdXQ2bWlqdjE0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
 
-**Time off for full time employees**
-* 15 days off each year (resets annually)
+**Paid Time Off for full-time employees**
+* 15 days off each year (resets annually/non-accruing)
 	* Pro-rated for employees that start mid-year
-* 3 days Paternity Leave
-* 2 weeks (10 days) Maternity Leave
+* 10 days maternity leave
+* 3 days paternity Leave

@@ -35,4 +35,4 @@ https://calendar.google.com/calendar?cid=bmVpZ2hib3IuY29tXzhiMzAwMXJnYWhwZW1xN3U
 * 15 days off each year (resets annually/non-accruing)
 	* Pro-rated for employees that start mid-year
 * 10 days maternity leave
-* 3 days paternity Leave
+* 3 days paternity leave

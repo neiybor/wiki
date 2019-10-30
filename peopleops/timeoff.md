@@ -30,3 +30,9 @@ https://goo.gl/forms/lGpcKhL8P6Ymg3Eu2
 **Add the Neighbor Time-off calendar to your Google Calendar**
 While logged into your Neighbor GSuite calendar, click on the link below:
 https://calendar.google.com/calendar?cid=bmVpZ2hib3IuY29tXzhiMzAwMXJnYWhwZW1xN3UxdXQ2bWlqdjE0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
+
+**Time off for full time employees**
+* 15 days off each year (resets annually)
+	* Pro-rated for employees that start mid-year
+* 3 days Paternity Leave
+* 2 weeks (10 days) Maternity Leave

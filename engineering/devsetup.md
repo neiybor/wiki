@@ -155,10 +155,10 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 		1. `source .bashrc`
 		1. Remove old Android SDK debugger IF it exists
 			1. `sudo rm /usr/bin/adb`
-		1. `npm install`
 		1. Install Cordova
 			1. `sudo npm install -g cordova`
 			1. `cd ~/neiybor/transmogrifier`
+			1. `npm install`
 			1. `cordova platform add android`
 		1. Build staging app
 			1. `cordova build`

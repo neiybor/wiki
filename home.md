@@ -7,7 +7,7 @@
 * [Ops](/ops)
 * [Marketing](/marketing)
 * [Human Resources](/peopleops)
-* [IT](/it)
+* [Office & IT](/it)
 
 # Q4 2019 Goals
 ### Search Engine Optimization

@@ -6,7 +6,6 @@
 * [Engineering](/engineering)
 * [Ops](/ops)
 * [Marketing](/marketing)
-* [Human Resources](/peopleops)
 * [Office & IT](/it)
 
 # Q4 2019 Goals

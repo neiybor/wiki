@@ -4,7 +4,7 @@
 # Quick links
 
 * [Engineering](/engineering)
-* [Ops](/ops)
+* [Operations](/ops)
 * [Marketing](/marketing)
 * [Office & IT](/it)
 

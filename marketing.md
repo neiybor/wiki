@@ -75,7 +75,7 @@ Other metrics to build:
 * Asana
 * Google Analytics
 * Unbounce
-* Grow
+* Domo
 * Google Ads
 * New Gmail
 * Slack

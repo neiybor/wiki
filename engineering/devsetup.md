@@ -102,6 +102,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 		1. `Ctrl + c` in terminal to shut down backend server
 	1. Populate the search index for your local enviornment:
 		1. Run `PERCENT=100 rake api:index_listings`
+		1. Run `rake:api test_users`
 	1. Try running frontend server
 		1. `cd react-frontend`
 		1. Start the node server with HTTPS and the correct hostname by running:

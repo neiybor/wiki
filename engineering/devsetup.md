@@ -157,43 +157,43 @@ TS with create react app 2 doesn't allow absolute imports because of the Babel c
 
 ## Deprecated
 * Optional setup
-		1. Setup for Android transpiling development
-			1. `sudo apt install default-jdk`
-			1. Enable KVM in BIOS for hardware accelerated virtualization
-				1. Security -> Virtualization
-				1. Enable both Virtualization Technology and Vt-d Feature
-			1. Install [Android Studio](https://developer.android.com/studio/install)
-		1. Open SDK Manager
-			1. Install Android SDK versions 25 and above
-		1. [Walk through tutorial of creating your first Android app](https://developer.android.com/training/basics/firstapp/creating-project)
-		1. After creating app, go to the “Run your app” -> “Run on an emulator” step of the tutorial
-		1. If you get an error about syncing gradle files click “Try Again”
-		1. Install Gradle
-		1. https://gradle.org/next-steps/?version=4.9&format=bin
-		```
-		cd ~/Downloads/
-		sudo mkdir /opt/gradle
-		sudo unzip -d /opt/gradle gradle-4.9-bin.zip
-		ls /opt/gradle/gradle-4.9
-		```
-		1. Add following to .bashrc (replacing `<USER>` with your username)
-		```
-		export JAVA_HOME="/usr/lib/jvm/default-java"
-		export ANDROID_HOME="/home/<user>/Android/Sdk"
-		export PATH="${PATH}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin"
-		export PATH=$PATH:/opt/gradle/gradle-4.9/bin
-		```
-		1. `source .bashrc`
-		1. Remove old Android SDK debugger IF it exists
-			1. `sudo rm /usr/bin/adb`
-		1. Install Cordova
-			1. `sudo npm install -g cordova`
-			1. `cd ~/neiybor/transmogrifier`
-			1. `npm install`
-			1. `cordova platform add android`
-		1. Build staging app
-			1. `cordova build`
-		1. Install apk on emlulator (i.e. after emulator started by Android Studio or command line)
-			1. `adb -s emulator-5554 install -r ~/neiybor/transmogrifier/platforms/android/app/build/outputs/apk/debug/app-debug.apk`
-		1. Build staging app for release to Play Store for testing
-			1. `cordova build --release --prod`
+1. Setup for Android transpiling development
+	1. `sudo apt install default-jdk`
+	1. Enable KVM in BIOS for hardware accelerated virtualization
+		1. Security -> Virtualization
+		1. Enable both Virtualization Technology and Vt-d Feature
+	1. Install [Android Studio](https://developer.android.com/studio/install)
+1. Open SDK Manager
+	1. Install Android SDK versions 25 and above
+1. [Walk through tutorial of creating your first Android app](https://developer.android.com/training/basics/firstapp/creating-project)
+1. After creating app, go to the “Run your app” -> “Run on an emulator” step of the tutorial
+1. If you get an error about syncing gradle files click “Try Again”
+1. Install Gradle
+1. https://gradle.org/next-steps/?version=4.9&format=bin
+```
+cd ~/Downloads/
+sudo mkdir /opt/gradle
+sudo unzip -d /opt/gradle gradle-4.9-bin.zip
+ls /opt/gradle/gradle-4.9
+```
+1. Add following to .bashrc (replacing `<USER>` with your username)
+```
+export JAVA_HOME="/usr/lib/jvm/default-java"
+export ANDROID_HOME="/home/<user>/Android/Sdk"
+export PATH="${PATH}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin"
+export PATH=$PATH:/opt/gradle/gradle-4.9/bin
+```
+1. `source .bashrc`
+1. Remove old Android SDK debugger IF it exists
+	1. `sudo rm /usr/bin/adb`
+1. Install Cordova
+	1. `sudo npm install -g cordova`
+	1. `cd ~/neiybor/transmogrifier`
+	1. `npm install`
+	1. `cordova platform add android`
+1. Build staging app
+	1. `cordova build`
+1. Install apk on emlulator (i.e. after emulator started by Android Studio or command line)
+	1. `adb -s emulator-5554 install -r ~/neiybor/transmogrifier/platforms/android/app/build/outputs/apk/debug/app-debug.apk`
+1. Build staging app for release to Play Store for testing
+	1. `cordova build --release --prod`

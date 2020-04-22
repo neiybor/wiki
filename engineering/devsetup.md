@@ -42,6 +42,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 	1. Setup your AWS account
 		1. For the admin adding the new hire: make sure the new hire is added to the ‘engineers’ group
 			1. Hint: Minimum password length is 16 chars
+		1. Login at https://console.aws.amazon.com/console/home?region=us-east-1
 		1. Make the user an access key
 			1. Send them “You will need the following to setup the AWS CLI while the setup-dev script runs”
 			1. Send them the key and secret

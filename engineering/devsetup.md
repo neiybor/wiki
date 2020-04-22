@@ -104,7 +104,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 		1. Verify you get a valid JSON response
 	1. cd react-frontend
 	1. Start the node server with HTTPS and the correct hostname by running:
-	1. yarn start
+	1. `npm run start`
 	1. Browser should open to https://nbr.pizza/
 1. Install tools
 	1. Install favorite editor

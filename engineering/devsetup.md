@@ -117,6 +117,8 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 		1.  `start` 
 		1. Verify that localstack spins up, backend starts, frontend starts.
 		1. Visit https://nbr.pizza to verify that the environment works
+
+## Install tools
 1. Install tools
 	1. Install favorite editor
 		1. VS Code

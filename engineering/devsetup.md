@@ -58,65 +58,65 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 
 ## Get & run setup script
 * Get & run setup script (recommended)
-	1. Replace `<VALUES>` with your info
-	```
-	#install git
-	sudo apt update
-	sudo apt upgrade
-	sudo apt install git
-	# configure git
-	git config --global color.ui true
-	git config --global user.name "<FIRSTNAME LASTNAME>"
-	git config --global user.email "<YOU>@neighbor.com"
-	ssh-keygen -t rsa -b 4096 -C "<YOU>@neighbor.com" #use default file location on prompt
-	```
-	2. Upload ssh key that generated to your github account
-		1. Go to https://github.com/settings/keys
-		1. Run command: gedit ~/.ssh/id_rsa.pub
-		1. Copy entire text and paste into new key form
-	1. Download config-management repo
-	```
-	# download repo
-	mkdir ~/neighbor
-	cd ~/neighbor
-	git clone git@github.com:neiybor/config-management.git
-	
-	# run setup script
-	./config-management/setup-dev.sh
-	```
-	4. The script above changes the .profile file (needed for localstack) so
-		1. log out of Ubuntu and
-		1. log back in
-	1. Optional steps for ops members (skip to next step)
-		1. AWS Codecommit (instructions)
-			1. Easiest to start w/ HTTPS access by generating a username/password
-			1. Save the username/password in lastpass
-			1. Use when prompted for “ops” repo in setup script
-	1. Try logging in to DB
-	```
-	psql -U dev neiybor_api_dev
-	# password: dev
-	```
-	1. Try running backend server
-		1. cd rails-api
-		1. Start server on port 3001:
-			1.` rails s -p 3001`
-		1. Open browser to http://nbr.pizza:3001
-		1. Verify you get a valid JSON response
-		1. `Ctrl + c` in terminal to shut down backend server
-	1. Populate the search index for your local enviornment:
-		1. Run `PERCENT=100 rake api:index_listings`
-		1. Run `rake:api test_users`
-	1. Try running frontend server
-		1. `cd react-frontend`
-		1. Start the node server with HTTPS and the correct hostname by running:
-			1. `npm run start`
-		1. Browser should open to https://nbr.pizza/
-		1. `Ctrl + c` in terminal to shut down backend server
-	1. Try running entire dev environment
-		1.  `start` 
-		1. Verify that localstack spins up, backend starts, frontend starts.
-		1. Visit https://nbr.pizza to verify that the environment works
+1. Replace `<VALUES>` with your info
+```
+#install git
+sudo apt update
+sudo apt upgrade
+sudo apt install git
+# configure git
+git config --global color.ui true
+git config --global user.name "<FIRSTNAME LASTNAME>"
+git config --global user.email "<YOU>@neighbor.com"
+ssh-keygen -t rsa -b 4096 -C "<YOU>@neighbor.com" #use default file location on prompt
+```
+2. Upload ssh key that generated to your github account
+	1. Go to https://github.com/settings/keys
+	1. Run command: gedit ~/.ssh/id_rsa.pub
+	1. Copy entire text and paste into new key form
+1. Download config-management repo
+```
+# download repo
+mkdir ~/neighbor
+cd ~/neighbor
+git clone git@github.com:neiybor/config-management.git
+
+# run setup script
+./config-management/setup-dev.sh
+```
+4. The script above changes the .profile file (needed for localstack) so
+	1. log out of Ubuntu and
+	1. log back in
+1. Optional steps for ops members (skip to next step)
+	1. AWS Codecommit (instructions)
+		1. Easiest to start w/ HTTPS access by generating a username/password
+		1. Save the username/password in lastpass
+		1. Use when prompted for “ops” repo in setup script
+1. Try logging in to DB
+```
+psql -U dev neiybor_api_dev
+# password: dev
+```
+1. Try running backend server
+	1. cd rails-api
+	1. Start server on port 3001:
+		1.` rails s -p 3001`
+	1. Open browser to http://nbr.pizza:3001
+	1. Verify you get a valid JSON response
+	1. `Ctrl + c` in terminal to shut down backend server
+1. Populate the search index for your local enviornment:
+	1. Run `PERCENT=100 rake api:index_listings`
+	1. Run `rake:api test_users`
+1. Try running frontend server
+	1. `cd react-frontend`
+	1. Start the node server with HTTPS and the correct hostname by running:
+		1. `npm run start`
+	1. Browser should open to https://nbr.pizza/
+	1. `Ctrl + c` in terminal to shut down backend server
+1. Try running entire dev environment
+	1.  `start` 
+	1. Verify that localstack spins up, backend starts, frontend starts.
+	1. Visit https://nbr.pizza to verify that the environment works
 
 ## Install tools
 * Install tools

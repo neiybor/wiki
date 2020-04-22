@@ -88,9 +88,6 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 			1. Easiest to start w/ HTTPS access by generating a username/password
 			1. Save the username/password in lastpass
 			1. Use when prompted for “ops” repo in setup script
-	1. Follow instructions here: (maybe remove?)
-	1. https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04
-	1. Run app
 	1. Try logging in to DB
 	```
 	psql -U dev neiybor_api_dev

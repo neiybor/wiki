@@ -111,7 +111,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 	1. Try running entire dev environment
 		1.  `start` 
 		1. Verify that localstack spins up, backend starts, frontend starts.
-		1. Visit https://nbr.pizza to see if site works
+		1. Visit https://nbr.pizza to verify that the environment works
 1. Install tools
 	1. Install favorite editor
 		1. VS Code

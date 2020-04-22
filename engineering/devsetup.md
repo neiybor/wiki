@@ -5,6 +5,10 @@ See also [Mac Setup](/engineering/macsetup)
 For debugging see [Setup Issues](/engineering/setup-issues)
 
 -----
+# Pre-dev Setup
+1. Sign up with Zenefits to get your neighbor email.
+1. Follow the Slack invite from Joseph and setup your account.
+1. Follow the LastPass invite from Joseph and setup your account.
 
 # Dev Setup
 1. Setup BIOS and OS

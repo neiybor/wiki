@@ -12,7 +12,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 1. Login to Google Calendar from new neighbor email and admin have Joseph setup an onboarding meeting.
 
 # Dev Setup
-1. Setup BIOS and OS
+## Setup BIOS and OS
 	1. Plug into Ethernet / connect wifi
 	1. Install Windows and login
 	1. Plugin the flash drive with Ubuntu

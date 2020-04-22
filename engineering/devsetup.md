@@ -13,7 +13,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 
 # Dev Setup
 ## Setup BIOS and OS
- 1. Setup BIOS and OS
+* Setup BIOS and OS
 	1. Plug into Ethernet / connect wifi
 	1. Install Windows and login
 	1. Plugin the flash drive with Ubuntu
@@ -57,7 +57,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 
 
 ## Get & run setup script
-1. Get & run setup script (recommended)
+* Get & run setup script (recommended)
 	1. Replace `<VALUES>` with your info
 	```
 	#install git
@@ -119,7 +119,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 		1. Visit https://nbr.pizza to verify that the environment works
 
 ## Install tools
-1. Install tools
+* Install tools
 	1. Install favorite editor
 		1. VS Code
 			1. sudo snap install code --classic

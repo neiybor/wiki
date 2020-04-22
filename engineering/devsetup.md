@@ -144,8 +144,20 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 			1. [Quick start guide](https://reactjs.org/docs/hello-world.html)
 		1. [Redux](https://redux.js.org/introduction/getting-started)
 		1. [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter#typescript-react-starter)
-	1. Optional setup
-		1. Setup for Android development
+
+
+**NOTES**
+Files/folders must be created in the VM or the server will complain when you try to start it (lack of permissions).
+If when editing on your host, VSCode complains that you have insufficient permissions to save a file, edit it in your VM. If it complains in your VM, edit on your host. Basically, you have to keep VSCode open on both your host and VM.
+
+## Editors
+### react-frontend VSCode setup
+Add `"javascript.preferences.importModuleSpecifier": "relative"` to settings.json
+TS with create react app 2 doesn't allow absolute imports because of the Babel compiler
+
+## Deprecated
+* Optional setup
+		1. Setup for Android transpiling development
 			1. `sudo apt install default-jdk`
 			1. Enable KVM in BIOS for hardware accelerated virtualization
 				1. Security -> Virtualization
@@ -185,13 +197,3 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 			1. `adb -s emulator-5554 install -r ~/neiybor/transmogrifier/platforms/android/app/build/outputs/apk/debug/app-debug.apk`
 		1. Build staging app for release to Play Store for testing
 			1. `cordova build --release --prod`
-
-
-**NOTES**
-Files/folders must be created in the VM or the server will complain when you try to start it (lack of permissions).
-If when editing on your host, VSCode complains that you have insufficient permissions to save a file, edit it in your VM. If it complains in your VM, edit on your host. Basically, you have to keep VSCode open on both your host and VM.
-
-## Editors
-### react-frontend VSCode setup
-Add `"javascript.preferences.importModuleSpecifier": "relative"` to settings.json
-TS with create react app 2 doesn't allow absolute imports because of the Babel compiler

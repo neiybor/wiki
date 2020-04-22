@@ -96,22 +96,22 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 	1. Try running backend server
 		1. cd rails-api
 		1. Start server on port 3001:
-		  1.` rails s -p 3001`
+			1.` rails s -p 3001`
 		1. Open browser to http://nbr.pizza:3001
 		1. Verify you get a valid JSON response
 		1. `Ctrl + c` in terminal to shut down backend server
 	1. Populate the search index for your local enviornment:
-	  1. Run `PERCENT=100 rake api:index_listings`
+		1. Run `PERCENT=100 rake api:index_listings`
 	1. Try running frontend server
-	  1. `cd react-frontend`
-	  1. Start the node server with HTTPS and the correct hostname by running:
-	    1. `npm run start`
-	  1. Browser should open to https://nbr.pizza/
-	  1. `Ctrl + c` in terminal to shut down backend server
+		1. `cd react-frontend`
+		1. Start the node server with HTTPS and the correct hostname by running:
+			1. `npm run start`
+		1. Browser should open to https://nbr.pizza/
+		1. `Ctrl + c` in terminal to shut down backend server
 	1. Try running entire dev environment
-	  1.  `start` 
-	  1. Verify that localstack spins up, backend starts, frontend starts.
-	  1. Visit https://nbr.pizza to see if site works
+		1.  `start` 
+		1. Verify that localstack spins up, backend starts, frontend starts.
+		1. Visit https://nbr.pizza to see if site works
 1. Install tools
 	1. Install favorite editor
 		1. VS Code

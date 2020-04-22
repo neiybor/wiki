@@ -14,46 +14,46 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 # Dev Setup
 ## Setup BIOS and OS
 * Setup BIOS and OS
-	1. Plug into Ethernet / connect wifi
-	1. Install Windows and login
-	1. Plugin the flash drive with Ubuntu
-	1. Go to https://forums.lenovo.com/t5/ThinkPad-P-and-W-Series-Mobile/Thinkpad-P50-can-no-longer-get-into-BIOS-from-boot-screen-using/td-p/3498366 and follow the 9 steps to get into the right BIOS
-	1. Update BIOS
-		1. Security -> Secure Boot
-			1. Set to Disabled
-		1. Startup -> Boot
-			1. Move USB HDD... to top of boot order
-		1. Graphics (For P51)
-			1. Change Hybrid to Discrete graphics
-		1. Save and exit
-	1. Install Ubuntu
-		1. Select “Download updates while installing” and “install 3rd party…” options and press continue
-		1. Erase disk and install Ubuntu and select the “Encrypt” and “LVM” options. Press continue.
-		1. Enter a security key -- note put it in lastpass -- you will be prompted to enter this key every time you login and there is NO RECOVERY
-		1. On “Erase disk & install ubuntu” screen select the SSD drive
-		1. On “Write changes to disk” prompt select Continue
-		1. “Who are you?” page
-			1. Computer name: email prefix (email part before @)
-			1. Username: email prefix (email part before @)
-			1. Require password on login
-			1. Do NOT encrypt home folder (entire disk already encrypted)
-		1. Remove the USB drive when installation is complete and press restart
-		1. If it hangs saying “Assuming drive cache: write through” on reset, Hard reset computer
-	1. Install chrome
-		1. Download .deb file - select Save
-		1. Open folder viewer and double click deb file to install
-		1. Install [Lastpass addon](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en)
-	1. Get access to repos
-		1. Neiybor Github account
-	1. Setup your AWS account
-		1. For the admin adding the new hire: make sure the new hire is added to the ‘engineers’ group
-			1. Hint: Minimum password length is 16 chars
-		1. New hire: login at https://console.aws.amazon.com/console/home?region=us-east-1 and change your password
-		1. Admin: Make the user an access key
-			1. Send them “You will need the following to setup the AWS CLI while the setup-dev script runs”
-			1. Send them the key and secret
-			1. Send them “default region: us-east-1”
-			1. Send them “skip default output format”
+1. Plug into Ethernet / connect wifi
+1. Install Windows and login
+1. Plugin the flash drive with Ubuntu
+1. Go to https://forums.lenovo.com/t5/ThinkPad-P-and-W-Series-Mobile/Thinkpad-P50-can-no-longer-get-into-BIOS-from-boot-screen-using/td-p/3498366 and follow the 9 steps to get into the right BIOS
+1. Update BIOS
+	1. Security -> Secure Boot
+		1. Set to Disabled
+	1. Startup -> Boot
+		1. Move USB HDD... to top of boot order
+	1. Graphics (For P51)
+		1. Change Hybrid to Discrete graphics
+	1. Save and exit
+1. Install Ubuntu
+	1. Select “Download updates while installing” and “install 3rd party…” options and press continue
+	1. Erase disk and install Ubuntu and select the “Encrypt” and “LVM” options. Press continue.
+	1. Enter a security key -- note put it in lastpass -- you will be prompted to enter this key every time you login and there is NO RECOVERY
+	1. On “Erase disk & install ubuntu” screen select the SSD drive
+	1. On “Write changes to disk” prompt select Continue
+	1. “Who are you?” page
+		1. Computer name: email prefix (email part before @)
+		1. Username: email prefix (email part before @)
+		1. Require password on login
+		1. Do NOT encrypt home folder (entire disk already encrypted)
+	1. Remove the USB drive when installation is complete and press restart
+	1. If it hangs saying “Assuming drive cache: write through” on reset, Hard reset computer
+1. Install chrome
+	1. Download .deb file - select Save
+	1. Open folder viewer and double click deb file to install
+	1. Install [Lastpass addon](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en)
+1. Get access to repos
+	1. Neiybor Github account
+1. Setup your AWS account
+	1. For the admin adding the new hire: make sure the new hire is added to the ‘engineers’ group
+		1. Hint: Minimum password length is 16 chars
+	1. New hire: login at https://console.aws.amazon.com/console/home?region=us-east-1 and change your password
+	1. Admin: Make the user an access key
+		1. Send them “You will need the following to setup the AWS CLI while the setup-dev script runs”
+		1. Send them the key and secret
+		1. Send them “default region: us-east-1”
+		1. Send them “skip default output format”
 
 
 ## Get & run setup script
@@ -120,30 +120,30 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 
 ## Install tools
 * Install tools
-	1. Install favorite editor
-		1. VS Code
-			1. sudo snap install code --classic
-			1. Install Debugger for Chrome extension
-				1. Follow setup instructions on extension page
-	1. Install React Dev Tools for Chrome
-	1. Chrome extension to block Google Analytics
-		1. Add *.neighbor.com and neighbor.com to the list of blocked sites
-		1. Another good alternative: Ghostery https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij?hl=en
-	1. Install Heroku CLI (google how to do it) and run heroku plugins:install heroku-config
-	1. Setup default git editor to be VSCode, Emacs, VI, Gedit, …
-		1. git config --global core.editor "code"
-	1. Configure Chrome to launch listening on a debug port
-		1. Save [Google Chrome](https://drive.google.com/open?id=1kRKIRivPSPq8XD2Lspx6ZMV37plkHu4-) to `~/.local/share/applications/google-chrome.desktop`
-		1. Change Path variable to your home directory
-	1. Tutorials
-		1. [JavaScript/ES6](https://www.codecademy.com/learn/introduction-to-javascript)
-		1. Typescript
-			1. [5 Minute Intro](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
-		1. [Ruby/Rails](https://www.coursera.org/learn/ruby-on-rails-intro/home/welcome)
-		1. [React](https://reactjs.org/tutorial/tutorial.html)
-			1. [Quick start guide](https://reactjs.org/docs/hello-world.html)
-		1. [Redux](https://redux.js.org/introduction/getting-started)
-		1. [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter#typescript-react-starter)
+1. Install favorite editor
+	1. VS Code
+		1. sudo snap install code --classic
+		1. Install Debugger for Chrome extension
+			1. Follow setup instructions on extension page
+1. Install React Dev Tools for Chrome
+1. Chrome extension to block Google Analytics
+	1. Add *.neighbor.com and neighbor.com to the list of blocked sites
+	1. Another good alternative: Ghostery https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij?hl=en
+1. Install Heroku CLI (google how to do it) and run heroku plugins:install heroku-config
+1. Setup default git editor to be VSCode, Emacs, VI, Gedit, …
+	1. git config --global core.editor "code"
+1. Configure Chrome to launch listening on a debug port
+	1. Save [Google Chrome](https://drive.google.com/open?id=1kRKIRivPSPq8XD2Lspx6ZMV37plkHu4-) to `~/.local/share/applications/google-chrome.desktop`
+	1. Change Path variable to your home directory
+1. Tutorials
+	1. [JavaScript/ES6](https://www.codecademy.com/learn/introduction-to-javascript)
+	1. Typescript
+		1. [5 Minute Intro](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+	1. [Ruby/Rails](https://www.coursera.org/learn/ruby-on-rails-intro/home/welcome)
+	1. [React](https://reactjs.org/tutorial/tutorial.html)
+		1. [Quick start guide](https://reactjs.org/docs/hello-world.html)
+	1. [Redux](https://redux.js.org/introduction/getting-started)
+	1. [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter#typescript-react-starter)
 
 
 **NOTES**

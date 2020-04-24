@@ -158,6 +158,8 @@ If when editing on your host, VSCode complains that you have insufficient permis
 Add `"javascript.preferences.importModuleSpecifier": "relative"` to settings.json
 TS with create react app 2 doesn't allow absolute imports because of the Babel compiler
 
+VS Code: Install and configure https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby
+
 ## Deprecated
 * Optional setup
 1. Setup for Android transpiling development

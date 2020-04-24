@@ -10,6 +10,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 1. Follow the Slack invite from Joseph and setup your account.
 1. Follow the LastPass invite from Joseph and setup your account.
 1. Login to Google Calendar from new neighbor email and admin have Joseph setup an onboarding meeting.
+1. Follow the email invite your received from Heroku (or ask admin to send) and sign up.
 
 # Dev Setup
 ## Setup BIOS and OS

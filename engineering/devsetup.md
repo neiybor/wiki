@@ -101,8 +101,7 @@ git clone git@github.com:neiybor/config-management.git
 		1. Use when prompted for “ops” repo in setup script
 1. Try logging in to DB
 ```
-psql -U dev neiybor_api_dev
-# password: dev
+devdb
 ```
 1. Try running backend server
 	1. cd rails-api

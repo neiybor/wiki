@@ -133,7 +133,6 @@ git clone git@github.com:neiybor/config-management.git
 1. Chrome extension to block Google Analytics
 	1. Add *.neighbor.com and neighbor.com to the list of blocked sites
 	1. Another good alternative: Ghostery https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij?hl=en
-1. Install Heroku CLI (google how to do it) and run heroku plugins:install heroku-config
 1. Setup default git editor to be VSCode, Emacs, VI, Gedit, …
 	1. git config --global core.editor "code"
 1. Configure Chrome to launch listening on a debug port

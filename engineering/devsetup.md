@@ -99,10 +99,7 @@ git clone git@github.com:neiybor/config-management.git
 		1. Easiest to start w/ HTTPS access by generating a username/password
 		1. Save the username/password in lastpass
 		1. Use when prompted for “ops” repo in setup script
-1. Try logging in to DB
-```
-devdb
-```
+1. Try logging in to DB with command `devdb`
 1. Try running backend server
 	1. cd rails-api
 	1. Start server on port 3001:
@@ -110,9 +107,6 @@ devdb
 	1. Open browser to http://nbr.pizza:3001
 	1. Verify you get a valid JSON response
 	1. `Ctrl + c` in terminal to shut down backend server
-1. Populate the search index for your local enviornment:
-	1. Run `PERCENT=100 rake api:index_listings`
-	1. Run `rake:api test_users`
 1. Try running frontend server
 	1. `cd react-frontend`
 	1. Start the node server with HTTPS and the correct hostname by running:
@@ -123,6 +117,9 @@ devdb
 	1.  `start` 
 	1. Verify that localstack spins up, backend starts, frontend starts.
 	1. Visit https://nbr.pizza to verify that the environment works
+1. Populate the search index for your local enviornment:
+	1. Run `PERCENT=100 rake api:index_listings`
+	1. Run `rake:api test_users`
 
 ## Install tools
 * Install tools

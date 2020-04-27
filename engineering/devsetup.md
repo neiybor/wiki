@@ -115,6 +115,7 @@ git clone git@github.com:neiybor/config-management.git
 	1. `Ctrl + c` in terminal to shut down backend server
 1. Try running entire dev environment
 	1.  `start` 
+	  1. Note: you may have to run `sudo docker-compose up` the first time if you get a `Couldn't connect to Docker daemon` error.
 	1. Verify that localstack spins up, backend starts, frontend starts.
 	1. Visit https://nbr.pizza to verify that the environment works
 1. Populate the search index for your local enviornment:

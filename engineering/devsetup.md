@@ -120,7 +120,7 @@ git clone git@github.com:neiybor/config-management.git
 	1. Visit https://nbr.pizza to verify that the environment works
 1. Populate the search index for your local enviornment:
 	1. Run `PERCENT=100 rake api:index_listings`
-	1. Run `rake:api test_users`
+	1. Run `rake api:test_users`
 
 ## Install tools
 * Install tools

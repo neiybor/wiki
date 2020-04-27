@@ -12,7 +12,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 1. Login to Google Calendar from new neighbor email and admin have Joseph setup an onboarding meeting.
 1. Follow the email invite your received from Heroku (or ask admin to send) and sign up.
 1. Test your access to the Eng folder on drive and the Sprint Demos folder (and ask admin for access if denied).
-1. Ask admin if you are added to `eng@neighbor` group.
+1. Ask admin if you are added to `eng@neighbor` group. https://admin.google.com/ac/groups/02dlolyb2q8xg80/members
 
 # Dev Setup
 ## Setup BIOS and OS

@@ -11,3 +11,4 @@ Run `localstack --debug start`
 
 ## React
 ### The server does not recompile
+Update the amount of files React can watch for changes by following [these](https://stackoverflow.com/a/60500802) instructions. (And restart your server)

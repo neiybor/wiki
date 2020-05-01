@@ -17,7 +17,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 1. Test your access to the [Eng](https://drive.google.com/drive/u/0/folders/1UIQJNheDhmzHqJGAstLUVehA_i7s8l1G) folder on drive (and ask admin for access if denied).
 1. Ask admin if you are added to `eng@neighbor` group. https://admin.google.com/ac/groups/02dlolyb2q8xg80/members
 1. Get access to this wiki
-
+1. Walk through the "Mission Control" doc with an admin
 # Dev Setup
 ## Setup BIOS and OS
 * Setup BIOS and OS

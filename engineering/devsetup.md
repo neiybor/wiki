@@ -85,7 +85,7 @@ ssh-keygen -t rsa -b 4096 -C "<YOU>@neighbor.com" #use default file location on 
 1. Copy the edited commands into a terminal and run them.
 1. Upload ssh key that generated to your github account
 	1. Go to https://github.com/settings/keys
-	1. Run command: gedit ~/.ssh/id_rsa.pub
+	1. Run command: `gedit ~/.ssh/id_rsa.pub`
 	1. Copy entire text and paste into new key form
 1. Download config-management repo
 ```

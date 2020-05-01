@@ -7,6 +7,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 -----
 # Pre-dev Setup
 1. Sign up with Zenefits to get your neighbor email.
+1. Get access to your neighbor gmail account.
 1. Follow the Slack invite from admin and setup your account.
 1. Follow the LastPass invite from Joseph and setup your account.
 1. Login to Google Calendar from new neighbor email and admin have Joseph setup an onboarding meeting.

@@ -125,8 +125,8 @@ git clone git@github.com:neiybor/config-management.git
 	1. Verify that localstack spins up, backend starts, frontend starts.
 	1. Visit https://nbr.pizza to verify that the environment works
 1. Populate the search index for your local enviornment:
-	1. Run `PERCENT=100 rake api:index_listings`
-	1. Run `rake api:test_users`
+	1. Run `PERCENT=100 rake api:index_listings` in the `rails-api` directory
+	1. Run `rake api:test_users` in the `rails-api` directory
 
 ## Install tools
 * Install tools

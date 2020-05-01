@@ -18,6 +18,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 1. Ask admin if you are added to `eng@neighbor` group. https://admin.google.com/ac/groups/02dlolyb2q8xg80/members
 1. Get access to this wiki
 1. Walk through the "Mission Control" doc with an admin
+1. Get access to Domo.
 # Dev Setup
 ## Setup BIOS and OS
 * Setup BIOS and OS

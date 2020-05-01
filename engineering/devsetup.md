@@ -14,7 +14,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 1. Follow the email invite your received from Heroku (or ask admin to send) and sign up.
 1. Follow email from KissMetrics to sign up
 1. Tell the admin the handle of the github account you would like associated with Neighbor and get access.
-1. Test your access to the [Eng](https://drive.google.com/drive/u/0/folders/1UIQJNheDhmzHqJGAstLUVehA_i7s8l1G) folder on drive and the [Sprint Demos](https://drive.google.com/drive/u/0/folders/1axv-kZUuEDAm3oPbWMJ9sUc3zxhmsOsj) folder (and ask admin for access if denied).
+1. Test your access to the [Eng](https://drive.google.com/drive/u/0/folders/1UIQJNheDhmzHqJGAstLUVehA_i7s8l1G) folder on drive (and ask admin for access if denied).
 1. Ask admin if you are added to `eng@neighbor` group. https://admin.google.com/ac/groups/02dlolyb2q8xg80/members
 1. Get access to this wiki
 

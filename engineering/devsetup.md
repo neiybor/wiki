@@ -106,6 +106,7 @@ git clone git@github.com:neiybor/config-management.git
 		1. Save the username/password in lastpass
 		1. Use when prompted for “ops” repo in setup script
 1. Try logging in to DB with command `devdb`
+	1. Try `stagedb` and `proddba` as well.
 1. Try running backend server
 	1. cd rails-api
 	1. Start server on port 3001:

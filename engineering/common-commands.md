@@ -7,10 +7,8 @@
 * **Start react server individually** `yarn start`
 * **Start localstack individually** ?
 
-
 **Run tests locally** `yarn test`
 * **Run headless tests** `REACT_APP_TEST_HEADLESS=true yarn test`
-
 
 **Debug rails in the console** `rails c`
 

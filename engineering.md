@@ -13,6 +13,7 @@
 * [Analytics](/engineering/analytics)
 * [Architecture](/engineering/architecture)
 * [Common Commands](/engineering/common-commands)
+* [Common Problems](/engineering/common-problems)
 
 ### Features Ideas and Bugs
 Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" target="_blank">https://issue.neighbor.com</a>

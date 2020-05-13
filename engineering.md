@@ -12,6 +12,7 @@
 * [SEO Research Center](https://drive.google.com/drive/u/0/folders/1dVUIEQbZPohrl7ebrT_K-nqavSoiOuJn)
 * [Analytics](/engineering/analytics)
 * [Architecture](/engineering/architecture)
+* [Common Commands](/engineering/common-commands)
 
 ### Features Ideas and Bugs
 Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" target="_blank">https://issue.neighbor.com</a>

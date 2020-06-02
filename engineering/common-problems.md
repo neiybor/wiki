@@ -2,4 +2,4 @@
 <!-- SUBTITLE: Some common problems I deal with regularly that I always seem to forget the solution to -->
 
 # Header
-**What is my question?** This is the answer.
+**Arrays in props** In componentDidUpdate(prevProps), the prevProps variable will be the same as this.props if the props have been mutated. This is common if the props has an array, such as metadata. The solution is to copy the array before any edits and reassign the props field with the edited copy. Places in the code where this may happen most include upsertDatum and creation of new listings. One occurrence was in new_listing.ts. The state variable was being mutated, so we added "const stateCopy = {...state};" and worked with stateCopy for the remainder of the function involved..

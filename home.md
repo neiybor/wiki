@@ -3,7 +3,7 @@
 
 # Quick links
 
-* [Engineering](/engineering)
+* [Product Engineering](/engineering)
 * [Operations](/ops)
 * [Marketing](/marketing)
 * [Office & IT](/it)

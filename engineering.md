@@ -3,6 +3,7 @@
 
 # Neighbor Engineering
 * [Goals](/engineering/goals)
+* [Feedback](/enginering/feedback)
 * [Onboarding](/engineering/onboarding)
 * [Dev Setup](/engineering/devsetup)
 * [Mac Setup](/engineering/macsetup)

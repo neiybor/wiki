@@ -7,6 +7,7 @@
 * [Onboarding](/engineering/onboarding)
 * [Dev Setup](/engineering/devsetup)
 * [Mac Setup](/engineering/macsetup)
+* [Mac/Docker Setup](/engineering/macdocker)
 * [Content Management Servers](/engineering/content-management-servers)
 * [Device Testing](/engineering/device-testing)
 * [Running Frontend Nginx on Dev](/engineering/frontend-nginx)

@@ -10,4 +10,5 @@
 2. Xcode  commandline tools (might have come with Homebrew)
 2. Install and configure AWS CLI
 	a. brew install awscli
-	b. get configure AWS API keys in environment
+	a. get configure AWS API keys in environment
+2. 

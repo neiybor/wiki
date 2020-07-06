@@ -4,8 +4,9 @@
 # Quick links
 
 * [Product Engineering](/engineering)
-* [Operations](/ops)
+* [Community](/community)
 * [Marketing](/marketing)
+* [Strategy](/strategy)
 * [Office & IT](/it)
 
 # Q4 2019 Goals

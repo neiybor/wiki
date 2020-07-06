@@ -1,5 +1,5 @@
-<!-- TITLE: Ops -->
-<!-- SUBTITLE: A quick summary of Ops -->
+<!-- TITLE: Community -->
+<!-- SUBTITLE: A quick summary of Community -->
 
 # SEO
 ## Q4 2019 Goals

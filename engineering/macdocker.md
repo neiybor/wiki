@@ -14,7 +14,7 @@
 	* configure AWS API keys in environment
 
 ## local system setup
-2. Clone repos
+1. Clone repos
 	* NOTE: the docker config uses relative paths so make sure these three repos are on the same level of the diretory structure as each other
 	* `git clone git@github.com:neiybor/react-frontend.git`
 	* `git clone git@github.com:neiybor/rails-api.git`

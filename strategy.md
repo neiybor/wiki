@@ -1,5 +1,5 @@
 <!-- TITLE: Strategy -->
-<!-- SUBTITLE: A quick summary of Strategy -->
+<!-- SUBTITLE: Overview of Strategy at Neighbor, including Analytics, SEO & Monetization -->
 
 # SEO
 ## Q4 2019 Goals

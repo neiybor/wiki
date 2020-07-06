@@ -35,4 +35,5 @@
 			* docker_api_1
 			* docker_db_1
 			* docker_localstack_1
-2. browse to website by opening <a href="https://nbr.pizza" target="_blank">https://nbr.pizza</a>
+2. add `nbr.pizza` to home (127.0.0.1) entry of `/etc/hosts` 
+2. browse to website by opening <a href="http://nbr.pizza:3000" target="_blank">http://nbr.pizza:3000</a>

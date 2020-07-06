@@ -33,4 +33,4 @@
 			* docker_api_1
 			* docker_db_1
 			* docker_localstack_1
-2. browse to website by opening [https://nbr.pizza](https://nbr.pizza)
+2. browse to website by opening <a href="https://nbr.pizza" target="_blank">https://nbr.pizza</a>

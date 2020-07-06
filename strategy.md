@@ -25,7 +25,7 @@ Details - https://docs.google.com/document/d/1tqwx4QG0SMv3fcWsfUhQkE7NUAhLY6omfY
 # Analytics
 ## Data Glossary
 **User Type**
-*Renter
-*Host
-*Hybrid
-*None
+* Renter
+* Host
+* Hybrid
+* None

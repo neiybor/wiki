@@ -19,7 +19,7 @@
 	* `git clone git@github.com:neiybor/react-frontend.git`
 	* `git clone git@github.com:neiybor/rails-api.git`
 	* `git clone git@github.com:neiybor/config-management.git
-2. config `rails-api` for the dev environment
+2. config `rails-api` for the docker dev environment
 	* `cp config-management/docker/.env.docker.backend rails-api/.env`
 2. build with docker-compose
 	* `cd config-management/docker`

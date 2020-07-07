@@ -32,6 +32,7 @@
 	* `cd config-management/docker`
 	* `docker-compose build`
 	* this will take a while to build espescially the `react-frontend` repo
+2. add `nbr.pizza` to the `/etc/hosts` file
 2. startup with docker-compose
 	* `docker-compose up`
   * in a separate window, verify all containers are up and running:

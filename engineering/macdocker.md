@@ -26,6 +26,8 @@
 	* `git clone git@github.com:neiybor/config-management.git`
 2. config `rails-api` for the docker dev environment
 	* `cp config-management/docker/.env.docker.backend rails-api/.env`
+2. config `react-frontend` for the docker dev environment
+	* `cp config-management/frontend/.env.development.frontend react-frontend/.env`
 2. build with docker-compose
 	* `cd config-management/docker`
 	* `docker-compose build`

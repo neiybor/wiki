@@ -42,4 +42,8 @@
 			* docker_api_1
 			* docker_db_1
 			* docker_localstack_1
+2. Populate the search index for your local enviornment:
+	* connect to the api server: `docker-compose run api bash`
+	* Run `PERCENT=100 rake api:index_listings`
+	* Run `rake api:test_users`
 2. browse to website by opening <a href="https://nbr.pizza" target="_blank">https://nbr.pizza</a>

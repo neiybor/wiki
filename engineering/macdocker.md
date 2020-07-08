@@ -28,14 +28,11 @@
 	* `cp config-management/docker/.env.docker.backend rails-api/.env`
 2. config `react-frontend` for the docker dev environment
 	* `cp config-management/docker/.env.development.frontend react-frontend/.env`
-2. build with docker-compose
-	* `cd config-management/docker`
-	* `docker-compose build`
 	* this will take a while to build espescially the `react-frontend` repo
 2. update `/etc/hosts` file
 	* add `nbr.pizza` to the localhost entry of `/etc/hosts` file
 	* add `api.nbr.pizza` to localhost entry of `/etc/hosts` file
-2. run `config-management/docker/setup.sh` to do the following:
+2. run `cd config-management/docker && ./setup.sh` to do the following:
 	* build docker containers
 	* create needed SNS topics
 	* setup and migrate api db

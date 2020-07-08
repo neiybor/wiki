@@ -28,7 +28,6 @@
 	* `cp config-management/docker/.env.docker.backend rails-api/.env`
 2. config `react-frontend` for the docker dev environment
 	* `cp config-management/docker/.env.development.frontend react-frontend/.env`
-	* this will take a while to build espescially the `react-frontend` repo
 2. update `/etc/hosts` file
 	* add `nbr.pizza` to the localhost entry of `/etc/hosts` file
 	* add `api.nbr.pizza` to localhost entry of `/etc/hosts` file

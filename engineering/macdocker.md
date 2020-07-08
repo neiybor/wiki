@@ -32,16 +32,18 @@
 	* `cd config-management/docker`
 	* `docker-compose build`
 	* this will take a while to build espescially the `react-frontend` repo
-2. add `nbr.pizza` to the `/etc/hosts` file
-2. startup with docker-compose
-	* `docker-compose up`
-  * in a separate window, verify all containers are up and running:
-		* `docker ps`
+2. update `/etc/hosts` file
+	* add `nbr.pizza` to the localhost entry of `/etc/hosts` file
+	* add `api.nbr.pizza` to localhost entry of `/etc/hosts` file
+2. run `config-management/docker/setup.sh` to do the following:
+	* build docker containers
+	* create needed SNS topics
+	* setup and migrate api db
+2. this will startup the docker containers in the background (daemon mode with -d). verify all containers are up and running by entering `docker ps`
 		* you should see the following containers running:
 			* docker_haproxy_1
 			* docker_frontend_1
 			* docker_api_1
 			* docker_db_1
 			* docker_localstack_1
-2. add `nbr.pizza` to home (127.0.0.1) entry of `/etc/hosts` 
-2. browse to website by opening <a href="http://nbr.pizza:3000" target="_blank">http://nbr.pizza:3000</a>
+2. browse to website by opening <a href="https://nbr.pizza" target="_blank">https://nbr.pizza</a>

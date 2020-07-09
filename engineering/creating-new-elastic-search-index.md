@@ -6,9 +6,13 @@
 
 2) Pick the new version number: {number}. Run rake task to create and populate the new index. Document the start-time that the rake task began:
 
-	FOR LOCAL:	rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v{number}'
+	
+```text
+  FOR LOCAL:	rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v{number}'
 	FOR STAGING:	heroku run CUSTOM_INDEX_NAME='staging-listings-v{number}' rake api:create_index_and_populate -a neighbor-api-staging
 	FOR PROD:       heroku run CUSTOM_INDEX_NAME='production-listings-v{number}' rake api:create_index_and_populate -a neighbor-api
+```
+
 
 3) If needed, create new ENV VAR in Heroku:
 

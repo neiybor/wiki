@@ -2,7 +2,7 @@
 
 ## CREATION AND MIGRATION PROCESS
 
-1) Open 5-10 search pages and leave them untouched throughout the process. Document how many hits are returned in the console ('...Found x matching...').
+1) Open 5-10 search pages and leave them untouched throughout the process. Document how many hits are returned in the console (`...Found x matching...`).
 
 2) Pick the new version number: {number}. Run rake task to create and populate the new index. Document the start-time that the rake task began:
 

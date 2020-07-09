@@ -52,9 +52,6 @@ select id from listings where (created_at > '{start-time}' or updated_at > '{sta
 1) Run rake task to create and populate the new index:
 
 
-```text
-	rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v2'
-
-```
+```text rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v2'```
 
 2) Pull config-management.

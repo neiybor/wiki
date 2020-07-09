@@ -16,7 +16,7 @@
 * [Architecture](/engineering/architecture)
 * [Common Commands](/engineering/common-commands)
 * [Common Problems](/engineering/common-problems)
-* [Creating New Elasticsearch Index](/engineering/creating-new-elastic-search-index)
+* [Creating New Elasticsearch Index and Migrating Listings](/engineering/creating-new-elastic-search-index)
 
 ### Features Ideas and Bugs
 Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" target="_blank">https://issue.neighbor.com</a>

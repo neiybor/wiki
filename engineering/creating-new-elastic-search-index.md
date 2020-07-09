@@ -22,7 +22,7 @@
 
 4) Create a PR for config-management and merge.
 
-5) Run query to get the ids of the listings that were created during the rake task runtime of step 1. Use the documented start-time from step 1 and use UTC.
+5) Run query to get the ids of the listings that were created since running the rake task runtime of step 1. Use the documented start-time from step 1 and use UTC.
 
 ```sql
 select id from listings where (created_at > '{start-time}' or updated_at > '{start-time}') and status = 'Published';

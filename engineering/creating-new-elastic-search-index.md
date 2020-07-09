@@ -16,13 +16,21 @@
 
 3) If needed, create new ENV VAR in Heroku:
 
+
+```text
 	ELASTIC_SEARCH_INDEX_VERSION
+```
+
 
 4) Set ELASTIC_SEARCH_INDEX_VERSION = {number}, to be version {number} of the index (this will cause all future listings to be added to the new index).
 
 5) Run query to get the ids of the listings that were created during the rake task runtime of step 1. Use the documented start-time from step 1 and use UTC.
 
-	select id from listings where (created_at > '{start-time}' or updated_at > '{start-time}') and status = 'Published';
+	
+```sql
+select id from listings where (created_at > '{start-time}' or updated_at > '{start-time}') and status = 'Published';
+```
+
 
 6) Run rake task to add the listings found in step 4 to the new index. Pass in a comma separated list of listing ids:
 

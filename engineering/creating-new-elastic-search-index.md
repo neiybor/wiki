@@ -49,8 +49,7 @@ IN STAGING: Test rollback. Remove the ELASTIC_SEARCH_INDEX_VERSION ENV VAR and c
 In case of rollback, use the start-time from step 1 and the query from step 4 to add to the old index all listings created/updated since the ENV VAR change.
 
 
-## STEPS FOR DEVELOPER TEAM
-### (to set up everyone's local search index)
+## STEPS FOR DEVELOPER TEAM (to set up everyone's local search index)
 
 
 ### 1)

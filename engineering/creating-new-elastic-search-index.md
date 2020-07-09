@@ -30,9 +30,9 @@ select id from listings where (created_at > '{start-time}' or updated_at > '{sta
 
 
 ```text
-	FOR LOCAL:    rake api:index_listings_by_id IDS='{id},{id},{id}'
-	FOR STAGING:  heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api-staging
-	FOR PROD:     heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api
+	FOR LOCAL:      rake api:index_listings_by_id IDS='{id},{id},{id}'
+	FOR STAGING:    heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api-staging
+	FOR PROD:       heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api
 ```
 
 

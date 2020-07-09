@@ -17,7 +17,6 @@
 
 `ELASTIC_SEARCH_INDEX_VERSION`
 
-
 4) Set ELASTIC_SEARCH_INDEX_VERSION = {number}, to be version {number} of the index (this will cause all future listings to be added to the new index).
 
 5) Run query to get the ids of the listings that were created during the rake task runtime of step 1. Use the documented start-time from step 1 and use UTC.
@@ -48,7 +47,6 @@ select id from listings where (created_at > '{start-time}' or updated_at > '{sta
 
 
 1) Run rake task to create and populate the new index:
-
 
 `rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v2'`
 

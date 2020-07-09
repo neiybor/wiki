@@ -7,7 +7,7 @@
 2) Pick the new version number: {number}. Run rake task to create and populate the new index. Document the start-time that the rake task began:
 
 ```text
-    FOR LOCAL:	    rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v{number}'
+  FOR LOCAL:      rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v{number}'
 	FOR STAGING:    heroku run CUSTOM_INDEX_NAME='staging-listings-v{number}' rake api:create_index_and_populate -a neighbor-api-staging
 	FOR PROD:       heroku run CUSTOM_INDEX_NAME='production-listings-v{number}' rake api:create_index_and_populate -a neighbor-api
 ```
@@ -30,9 +30,9 @@ select id from listings where (created_at > '{start-time}' or updated_at > '{sta
 
 
 ```text
-	FOR LOCAL:   rake api:index_listings_by_id IDS='{id},{id},{id}'
-	FOR STAGING: heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api-staging
-	FOR PROD:    heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api
+	FOR LOCAL:    rake api:index_listings_by_id IDS='{id},{id},{id}'
+	FOR STAGING:  heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api-staging
+	FOR PROD:     heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api
 ```
 
 

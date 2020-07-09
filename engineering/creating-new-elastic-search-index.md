@@ -2,7 +2,7 @@
 
 ## CREATION AND MIGRATION PROCESS
 
-0) To find your host/machine name, type 'hostname' in the terminal
+0) To find your host/machine name, type 'hostname' in the terminal.
 
 1) Open 5-10 search pages and leave them untouched throughout the process. Document how many hits are returned in the console (`...Found <x> matching...`).
 

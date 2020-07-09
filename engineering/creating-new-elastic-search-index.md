@@ -10,9 +10,9 @@ Open 5-10 search pages and leave them untouched throughout the process. Document
 
 Pick the new version number: {number}. Run rake task to create and populate the new index. Document the start-time that the rake task began:
 
-	FOR LOCAL:	  rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v{number}'
+	FOR LOCAL:	rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v{number}'
 	FOR STAGING:	heroku run CUSTOM_INDEX_NAME='staging-listings-v{number}' rake api:create_index_and_populate -a neighbor-api-staging
-	FOR PROD:     heroku run CUSTOM_INDEX_NAME='production-listings-v{number}' rake api:create_index_and_populate -a neighbor-api
+	FOR PROD:  heroku run CUSTOM_INDEX_NAME='production-listings-v{number}' rake api:create_index_and_populate -a neighbor-api
 
 ### 3)
 
@@ -34,9 +34,9 @@ Run query to get the ids of the listings that were created during the rake task 
 
 Run rake task to add the listings found in step 4 to the new index. Pass in a comma separated list of listing ids:
 
-	FOR LOCAL:	  rake api:index_listings_by_id IDS='{id},{id},{id}'
+	FOR LOCAL:	rake api:index_listings_by_id IDS='{id},{id},{id}'
 	FOR STAGING:	heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api-staging
-	FOR PROD:	    heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api
+	FOR PROD:	 heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api
 
 ### 7)
 

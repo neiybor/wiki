@@ -14,7 +14,7 @@
 
 3) In config-management, set ELASTIC_SEARCH_INDEX_VERSION = {number}, to be version {number} of the index (this will cause all future listings to be added to the new index). Add this to all three .env files:
 
-          .env.development.backend
+           .env.development.backend
 		   .env.staging.backend
 		   .env.production.backend
 

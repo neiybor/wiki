@@ -15,9 +15,7 @@
 
 3) If needed, create new ENV VAR in Heroku:
 
-```text
-	ELASTIC_SEARCH_INDEX_VERSION
-```
+```ELASTIC_SEARCH_INDEX_VERSION```
 
 
 4) Set ELASTIC_SEARCH_INDEX_VERSION = {number}, to be version {number} of the index (this will cause all future listings to be added to the new index).
@@ -52,6 +50,7 @@ select id from listings where (created_at > '{start-time}' or updated_at > '{sta
 1) Run rake task to create and populate the new index:
 
 
-```text rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v2'```
+```rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v2'
+```
 
 2) Pull config-management.

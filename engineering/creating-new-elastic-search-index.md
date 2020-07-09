@@ -31,9 +31,13 @@ select id from listings where (created_at > '{start-time}' or updated_at > '{sta
 
 6) Run rake task to add the listings found in step 4 to the new index. Pass in a comma separated list of listing ids:
 
-	FOR LOCAL:	rake api:index_listings_by_id IDS='{id},{id},{id}'
+
+```text
+	  FOR LOCAL:	  rake api:index_listings_by_id IDS='{id},{id},{id}'
 	FOR STAGING:	heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api-staging
-	FOR PROD:	heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api
+	FOR PROD:	    heroku run IDS='{id},{id},{id}' rake api:index_listings_by_id -a neighbor-api
+```
+
 
 7) Validate that the new index returns the correct search results by opening the same search 5-10 pages as in step 1. Confirm that they are the same and that the same number of hits in the console are returned. (Due to the fuzz function in the backend, on searches with many results the lat. and long. values can vary enough to slightly change the hit numbers. Listings on the edge of the search diameter can be fuzzed outside/inside the diameter with the new index. To account for this locally, comment out the fuzz function temporarily.)
 
@@ -47,6 +51,10 @@ select id from listings where (created_at > '{start-time}' or updated_at > '{sta
 
 1) Run rake task to create and populate the new index:
 
+
+```text
 	rake api:create_index_and_populate CUSTOM_INDEX_NAME='development-listings-{hostname}-v2'
+
+```
 
 2) Pull config-management.

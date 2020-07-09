@@ -1,5 +1,7 @@
 <!-- TITLE: Creating New Elastic Search Index and Migrating Listings -->
 
+## CREATION AND MIGRATION PROCESS
+
 ### 1)
 
 Open 5-10 search pages and leave them untouched throughout the process. Document how many hits are returned in the console ('...Found x matching...').

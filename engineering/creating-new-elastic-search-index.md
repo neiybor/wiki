@@ -20,7 +20,7 @@
 .env.production.backend
 ```
 
-4) Create a PR for config-management and merge.
+4) Create a PR for config-management and merge. Then sync Heroku with config-management.
 
 5) Run query to get the ids of the listings that were created since running the rake task runtime of step 1. Use the documented start-time from step 1 and use UTC.
 

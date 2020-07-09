@@ -12,7 +12,7 @@
 	FOR PROD:       heroku run CUSTOM_INDEX_NAME='production-listings-v{number}' rake api:create_index_and_populate -a neighbor-api
 ```
 
-3) In config-management, set ELASTIC_SEARCH_INDEX_VERSION = {number}, to be version {number} of the index (this will cause all future listings to be added to the new index). Add this to all three .env files:
+3) In config-management, set ELASTIC_SEARCH_INDEX_VERSION = {number}, to be the version {number} of the index (this will cause all future listings to be added to the new index). Update this in all three .env files:
 
 ```text
 .env.development.backend

@@ -48,3 +48,16 @@
 	* Run `PERCENT=100 rake api:index_listings`
 	* Run `rake api:test_users`
 2. browse to website by opening <a href="https://nbr.pizza" target="_blank">https://nbr.pizza</a>
+
+## troubleshooting
+
+### Inspect logs
+`docker-compose logs [-f] [service_name]`
+
+`docker-compose logs -f` - shows all logs (with tag on each line to indicate source service)
+`docker-compose logs -f api` - shows just the api logs
+
+### PSQL 
+`psql -h localhost -U dev -d neiybor_api_dev`
+
+will prompt for password which is `dev`

@@ -12,6 +12,7 @@
 2. Install and configure AWS CLI
 	* brew install awscli
 	* configure AWS API keys in environment
+2. Configure Github with your SSH key
 		1. `ssh -keygen -t rsa`
 		2. `cat ~/.ssh/id_rsa.pub | pbcopy` # this will copy the public key to the keyboard buffer
 		3. go to `https://github.com/settings/keys` and click on "New SSH key"

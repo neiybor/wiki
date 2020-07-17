@@ -23,12 +23,6 @@ Vision: By the end of Q4 2019, regarding Neighbor SEO:
 Details - https://docs.google.com/document/d/1tqwx4QG0SMv3fcWsfUhQkE7NUAhLY6omfYaN-xiXCmI/edit?usp=sharing
 
 # Analytics
-## Data Glossary
-**User Type**
-* Renter
-* Host
-* Hybrid
-* None
 
 ## Resources
 ### 2018-2020 Self-Storage Almanac Credentials
@@ -36,3 +30,10 @@ Details - https://docs.google.com/document/d/1tqwx4QG0SMv3fcWsfUhQkE7NUAhLY6omfY
 Login: https://view.imirus.com/301/signin
 Username: colton@neighbor.com
 Password: TKErxOGe
+
+## Data Glossary (Work in Progress)
+**User Type**
+* Renter
+* Host
+* Hybrid
+* None

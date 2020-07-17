@@ -29,3 +29,10 @@ Details - https://docs.google.com/document/d/1tqwx4QG0SMv3fcWsfUhQkE7NUAhLY6omfY
 * Host
 * Hybrid
 * None
+
+## Resources
+### 2018-2020 Self-Storage Almanac Credentials
+
+Login: https://view.imirus.com/301/signin
+Username: colton@neighbor.com
+Password: TKErxOGe

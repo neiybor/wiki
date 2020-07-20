@@ -1,6 +1,43 @@
 <!-- TITLE: Strategy -->
 <!-- SUBTITLE: Overview of Strategy at Neighbor, including Analytics, SEO & Monetization -->
 
+
+# Analytics
+## Data Glossary (Work in Progress)
+**User Type**
+* Renter
+* Host
+* Hybrid
+* None
+
+**Business Type**
+* P2P
+* Enterprise
+
+**Market:** Neighbor-defined geographic areas constrained by latitude & longitude coordinates. Not stored in the database and only accessible by Master datasets (see "Master datasets" inside Domo Best Practices) or by SQL query.
+
+
+## Domo Best Practices
+### Creating Cards
+
+* **Quick Filters:** Add potential filters to a card and toggle the "Quick Filter" on to allow for end-users to easily toggle between common filters (e.g., Market, Business Type, Listing Status). To join your dataset with existing Neighbor database data, see the "Master datasets" bullet of the "Managing Data" section.
+
+### Managing Data
+
+* **Dataset tags:** Rather than naming a dataset with your department name, use a tag.
+* **Google Sheets:** When creating a new dataset from a Google Sheet, put a shareable link to the sheet in the dataset description to make it easy to find the actual sheet within Google Drive.
+* **Master datasets:** To join new datasets with database data, use a "Master" dataset to connect with existing ETL pipelines. This allows for easier maintenance and 
+global consistency. Depending on what data you are looking to join, join with the Master Reservations (all reservations plus relevant data), Master Listings (all listings plus relevant data) or Master Users (all users plus relevant data).
+* **New datasources and large datasets:** Domo pricing is dependent on user seats, unique datasources and rows of data. Before connecting a datasource to Domo that Domo isn't already using, talk to Colton about Neighbor's data connectors. When pulling in a large number of rows of data, try to aggregate it before pulling into Domo to limit the number of data rows that Domo handles.
+
+
+## Resources
+### 2018-2020 Self-Storage Almanac Credentials
+
+Login: https://view.imirus.com/301/signin
+Username: colton@neighbor.com
+Password: TKErxOGe
+
 # SEO
 ## Q4 2019 Goals
 Vision: By the end of Q4 2019, regarding Neighbor SEO:
@@ -21,32 +58,3 @@ Vision: By the end of Q4 2019, regarding Neighbor SEO:
 **5. 4 blog articles published** (including Self Storage Industry Data article)
 
 Details - https://docs.google.com/document/d/1tqwx4QG0SMv3fcWsfUhQkE7NUAhLY6omfYaN-xiXCmI/edit?usp=sharing
-
-# Analytics
-
-## Resources
-### 2018-2020 Self-Storage Almanac Credentials
-
-Login: https://view.imirus.com/301/signin
-Username: colton@neighbor.com
-Password: TKErxOGe
-
-## Domo Best Practices
-### Creating Cards
-
-* **Quick Filters:** Add potential filters to a card and toggle the "Quick Filter" on to allow for end-users to easily toggle between common filters (e.g., Market, Business Type, Listing Status). To join your dataset with existing Neighbor database data, see the "Master datasets" bullet of the "Managing Data" section.
-
-### Managing Data
-
-* **Dataset tags:** Rather than naming a dataset with your department name, use a tag.
-* **Google Sheets:** When creating a new dataset from a Google Sheet, put a shareable link to the sheet in the dataset description to make it easy to find the actual sheet within Google Drive.
-* **Master datasets:** To join new datasets with database data, use a "Master" dataset to connect with existing ETL pipelines. This allows for easier maintenance and 
-global consistency. Depending on what data you are looking to join, join with the Master Reservations (all reservations plus relevant data), Master Listings (all listings plus relevant data) or Master Users (all users plus relevant data).
-* **New datasources and large datasets:** Domo pricing is dependent on user seats, unique datasources and rows of data. Before connecting a datasource to Domo that Domo isn't already using, talk to Colton about Neighbor's data connectors. When pulling in a large number of rows of data, try to aggregate it before pulling into Domo to limit the number of data rows that Domo handles.
-
-## Data Glossary (Work in Progress)
-**User Type**
-* Renter
-* Host
-* Hybrid
-* None

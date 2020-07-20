@@ -3,14 +3,17 @@
 
 
 # Analytics
-## Data Glossary (Work in Progress)
-**User Type**
+## Data Glossary
+
+*--Work in Progress--*
+
+**User Type:** Domo-defined term based on how the user initially defined their use case during registration and by actions the user took. For example, if a self-defined Renter creates a listing then they will also be flagged as a Host, resulting in a Hybrid user type within Domo.
 * Renter
 * Host
 * Hybrid
 * None
 
-**Business Type**
+**Business Type:** Neighbor-defined term based on whether the user is renting out space whose primary purpose is not storage (P2P) or if the space's primary purpose is to generate revenue through storage (Enterprise). 
 * P2P
 * Enterprise
 

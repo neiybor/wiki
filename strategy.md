@@ -31,6 +31,14 @@ Login: https://view.imirus.com/301/signin
 Username: colton@neighbor.com
 Password: TKErxOGe
 
+## Domo Best Practices
+### Managing Data
+
+* Dataset tags: Rather than naming a dataset with your department name, use a tag.
+* Google Sheets: When creating a new dataset from a Google Sheet, put a shareable link to the sheet in the dataset description to make it easy to find the actual sheet within Google Drive.
+* Master datasets: To join new datasets with database data, use a "Master" dataset to connect with existing ETL pipelines. This allows for easier maintenance and 
+global consistency. Depending on what data you are looking to join, join with the Master Reservations (all reservations plus relevant data), Master Listings (all listings plus relevant data) or Master Users (all users plus relevant data).
+
 ## Data Glossary (Work in Progress)
 **User Type**
 * Renter

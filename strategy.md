@@ -32,6 +32,10 @@ Username: colton@neighbor.com
 Password: TKErxOGe
 
 ## Domo Best Practices
+### Creating Cards
+
+* **Quick Filters:** Add potential filters to a card and toggle the "Quick Filter" on to allow for end-users to easily toggle between common filters (e.g., Market, Business Type, Listing Status). To join your dataset with existing Neighbor database data, see the "Master datasets" bullet of the "Managing Data" section.
+
 ### Managing Data
 
 * **Dataset tags:** Rather than naming a dataset with your department name, use a tag.

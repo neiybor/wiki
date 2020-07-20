@@ -21,19 +21,7 @@ For debugging see [Setup Issues](/engineering/setup-issues)
 1. Get access to Domo.
 # Dev Setup
 ## Setup BIOS and OS
-* Setup BIOS and OS
-1. Plug into Ethernet / connect wifi
-1. Install Windows and login
-1. Plugin the flash drive with Ubuntu
-1. Go to https://forums.lenovo.com/t5/ThinkPad-P-and-W-Series-Mobile/Thinkpad-P50-can-no-longer-get-into-BIOS-from-boot-screen-using/td-p/3498366 and follow the 9 steps to get into the right BIOS
-1. Update BIOS
-	1. Security -> Secure Boot
-		1. Set to Disabled
-	1. Startup -> Boot
-		1. Move USB HDD... to top of boot order
-	1. Graphics (For P51)
-		1. Change Hybrid to Discrete graphics
-	1. Save and exit
+* Setup OS
 1. Install Ubuntu
 	1. Select “Download updates while installing” and “install 3rd party…” options and press continue
 	1. Erase disk and install Ubuntu and select the “Encrypt” and “LVM” options. Press continue.

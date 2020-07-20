@@ -7,15 +7,9 @@
 
 *--Work in Progress--*
 
-**User Type:** Domo-defined term based on how the user initially defined their use case during registration and by actions the user took. For example, if a self-defined Renter creates a listing then they will also be flagged as a Host, resulting in a Hybrid user type within Domo.
-* Renter
-* Host
-* Hybrid
-* None
+**User Type:** Domo-defined term based on how the user initially defined their use case during registration and by actions the user took. Options include: Renter, Host, Hybrid, None. For example, if a self-defined Renter creates a listing then they will also be flagged as a Host, resulting in a Hybrid user type within Domo.
 
-**Business Type:** Neighbor-defined term based on whether the user is renting out space whose primary purpose is not storage (P2P) or if the space's primary purpose is to generate revenue through storage (Enterprise). 
-* P2P
-* Enterprise
+**Business Type:** Neighbor-defined term based on whether the user is renting out space whose primary purpose is not storage (P2P) or if the space's primary purpose is to generate revenue through storage (Enterprise). Options include: P2P, Enterprise. *Note: May consider spliting out P2P into P2P Commercial and P2P Residential.*
 
 **Market:** Neighbor-defined geographic areas constrained by latitude & longitude coordinates. Not stored in the database and only accessible by Master datasets (see "Master datasets" inside Domo Best Practices) or by SQL query.
 

@@ -48,7 +48,7 @@
 ## common activities
 the `setup.sh` script above created several listings and users into the database. this section contains info about these users and listings for manual testing purposes.
 
-### users:
+### users
 * host
 	* email: `bothost@neighbor.com`
 	* password: password
@@ -71,3 +71,15 @@ the `setup.sh` script above created several listings and users into the database
 `psql -h localhost -U dev -d neiybor_api_dev`
 
 will prompt for password which is `dev`
+
+### Rails Console
+
+`docker-compose run api rails c`
+
+* update a user to be an admin
+	* `User.find_by(email: 'kirkby@neighbor.com').update(admin: true)`
+	* `User.where(email: 'kirkby@neighbor.com').first.update(admin: true)`
+
+* count of listings for a given user
+	* `user_id = User.where(email: 'kirkby@neighbor.com').first
+	* Listing.where(user_id: user_id).count`

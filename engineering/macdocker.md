@@ -78,10 +78,9 @@ will prompt for password which is `dev`
 
 * update a user to be an admin
 	* `User.find_by(email: 'kirkby@neighbor.com').update(admin: true)`
-	* `User.where(email: 'kirkby@neighbor.com').first.update(admin: true)`
 
 * count of listings for a given user
 ```
-user_id = User.where(email: 'kirkby@neighbor.com').first
+user_id = User.where(email: 'kirkby@neighbor.com').pluck(:id)[0]
 Listing.where(user_id: user_id).count
 ```

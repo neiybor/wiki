@@ -81,7 +81,8 @@ will prompt for password which is `dev`
 	* `User.where(email: 'kirkby@neighbor.com').first.update(admin: true)`
 
 * count of listings for a given user
-	*```
+	*
+```
 user_id = User.where(email: 'kirkby@neighbor.com').first
 Listing.where(user_id: user_id).count
 ```

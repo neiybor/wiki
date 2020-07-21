@@ -29,6 +29,20 @@ global consistency. Depending on what data you are looking to join, join with th
 
 
 ## Resources
+###Neighbor Internal Research
+
+This shared folder serves as a company-wide repository for internal research, allowing all teams to store and access the insights of other teams. When adding files, please add a descriptive title and include in the title or document who conducted the research.
+
+https://drive.google.com/drive/folders/1whr8ET0c55MrvNK5MAtQLC9vREV9eJYv?usp=sharing
+
+### Market Research
+
+This shared folder contains industry reports on the self storage industry and research into other marketplace or storage companies. Feel free to add relevant files to the main folder or the Industry Reports subfolder.
+
+https://drive.google.com/drive/folders/1g6kESdLmhGOwyfXxWu8zszEGAgCI2i8P?usp=sharing
+
+
+
 ### 2018-2020 Self-Storage Almanac Credentials
 
 Login: https://view.imirus.com/301/signin

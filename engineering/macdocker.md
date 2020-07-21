@@ -50,13 +50,13 @@ the `setup.sh` script above created several listings and users into the database
 
 ### users:
 * host
-	* email: bothost@neighbor.com
+	* email: `bothost@neighbor.com`
 	* password: password
 * renter
-	* email: botrenter@neighbor.com
+	* email: `botrenter@neighbor.com`
 	* password: password
 * admin
-	* email: sean@neiybor.com
+	* email: `sean@neiybor.com`
 	* password: password
 
 ## troubleshooting

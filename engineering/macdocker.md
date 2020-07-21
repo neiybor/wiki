@@ -49,15 +49,15 @@
 the `setup.sh` script above created several listings and users into the database. this section contains info about these users and listings for manual testing purposes.
 
 ### users:
-	* host
-		* email: bothost@neighbor.com
-		* password: password
-	* renter
-		* email: botrenter@neighbor.com
-		* password: password
-	* admin
-		* email: sean@neiybor.com
-		* password: password
+* host
+	* email: bothost@neighbor.com
+	* password: password
+* renter
+	* email: botrenter@neighbor.com
+	* password: password
+* admin
+	* email: sean@neiybor.com
+	* password: password
 
 ## troubleshooting
 

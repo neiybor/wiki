@@ -83,5 +83,5 @@ will prompt for password which is `dev`
 * count of listings for a given user
 ```
 	user_id = User.where(email: 'kirkby@neighbor.com').first
-	Listing.where(user_id: user_id).count`
+	Listing.where(user_id: user_id).count
 	```

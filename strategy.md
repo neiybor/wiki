@@ -29,7 +29,7 @@ global consistency. Depending on what data you are looking to join, join with th
 
 
 ## Resources
-###Neighbor Internal Research
+### Neighbor Internal Research
 
 This shared folder serves as a company-wide repository for internal research, allowing all teams to store and access the insights of other teams. When adding files, please add a descriptive title and include in the title or document who conducted the research.
 

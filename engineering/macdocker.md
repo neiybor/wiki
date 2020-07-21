@@ -43,11 +43,21 @@
 			* docker_api_1
 			* docker_db_1
 			* docker_localstack_1
-2. Populate the search index for your local enviornment:
-	* connect to the api server: `docker-compose run api bash`
-	* Run `PERCENT=100 rake api:index_listings`
-	* Run `rake api:test_users`
 2. browse to website by opening <a href="https://nbr.pizza" target="_blank">https://nbr.pizza</a>
+
+## common activities
+the `setup.sh` script above created several listings and users into the database. this section contains info about these users and listings for manual testing purposes.
+
+### users:
+	* host
+		* email: bothost@neighbor.com
+		* password: password
+	* renter
+		* email: botrenter@neighbor.com
+		* password: password
+	* admin
+		* email: sean@neiybor.com
+		* password: password
 
 ## troubleshooting
 

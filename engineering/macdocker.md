@@ -59,6 +59,10 @@ the `setup.sh` script above created several listings and users into the database
 	* email: `sean@neiybor.com`
 	* password: password
 
+
+## heroku
+https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+
 ## troubleshooting
 
 ### Inspect logs

@@ -60,8 +60,9 @@ the `setup.sh` script above created several listings and users into the database
 	* password: password
 
 
-## heroku
-https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+## heroku setup
+`brew tap heroku/brew && brew install heroku` # to install the heroku-cli
+`heroku plugins:install heroku-config` # to install config plugins for push and pull
 
 ## troubleshooting
 

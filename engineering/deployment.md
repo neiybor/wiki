@@ -21,7 +21,7 @@ example for staging on front end:
 ```
 git clone git@github.com:neiybor/config-management.git
 cd config-management/frontend
-vi .env.staging.frontend # make changes to file and stage
+vi .env.staging.frontend # make changes to file and save
 heroku config:push -f .env.staging.frontend --app=neiybor-frontend-staging
 ```
 

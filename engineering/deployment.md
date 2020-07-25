@@ -18,11 +18,12 @@ here is a list for the current (2020-07-25) `<heroku_app_name>`s for frontend an
 * rails-api producton: **neighbor-api**
 
 example for staging on front end:
-
+```
 > git clone git@github.com:neiybor/config-management.git
 > cd config-management/frontend
 > vi .env.staging.frontend # make changes to file and stage
 > heroku config:push -f .env.staging.frontend --app=neiybor-frontend-staging
+```
 
 **NOTE**: if you get an error `config:push is not a heroku command`, you need to install the heroku-config addon: `heroku plugins:install heroku-config`
 

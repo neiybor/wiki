@@ -21,3 +21,6 @@ this will log you into the rails console to be able to query the database throug
 the connection string for the production postgresql can be found in LastPass in the "Prod DB Ops" document which is in the **Shared-DevOpsHigh** folder. 
 
 once you get the connection string you can run the `psql` command from anywhere and have an SQL interface to the production database.
+```
+psql postgres://neighborOps:<secret_password>@prod-db.csygbnmyokub.us-east-1.rds.amazonaws.com:5432/neiybor_api_production
+```

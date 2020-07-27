@@ -1,6 +1,6 @@
-<!-- TITLE: Business Enablement -->
-<!-- SUBTITLE: A quick summary of Business Enablement -->
-# Business Enablement Areas
+<!-- TITLE: Business Enablement Area -->
+<!-- SUBTITLE: A quick summary of which teams handle which business enablement areas -->
+
 ## Host
 Host Admin tool features + Impersonation
 Stripe / Payments

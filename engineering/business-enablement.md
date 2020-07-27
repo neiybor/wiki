@@ -1,4 +1,4 @@
-<!-- TITLE: Business Enablement Area -->
+<!-- TITLE: Who works on what? -->
 <!-- SUBTITLE: A quick summary of which teams handle which business enablement areas -->
 
 ## Host

@@ -8,8 +8,7 @@ To be clear about "topics of interest," it could literally be anything that _you
 
 As Mr. Rogers wonders: "Do you ever grow anything in the garden of your mind?"
 
-[video](https://www.youtube.com/watch?v=T-eA_HxeCfI&t=51){.youtube}
-
+[video](https://youtu.be/a3jXdMM2_g8){.youtube}
 
 # Sign-ups
 

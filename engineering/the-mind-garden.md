@@ -6,6 +6,11 @@
 
 To be clear about "topics of interest," it could literally be anything that _you_ think is interesting that you think other's might also think is interesting. Maybe it's a practial application of Docker for your dev environment that makes something easier for you? Or maybe you have something to say about Quantum Computers? Or maybe you want to show an introduction to ReasonML? Or maybe you have a great StarCraft II Zerg rush strategy? Or maybe...
 
+As Mr. Rogers wonders: "Do you ever grow anything in the garden of your mind?"
+
+[video](https://www.youtube.com/watch?v=T-eA_HxeCfI&t=51){.youtube}
+
+
 # Sign-ups
 
-If you've got an idea for _The Mind Garden_, head over to the [https://docs.google.com/spreadsheets/d/1i-lfeonhrBjc4RARYGeJBKIhGzdOOqLZWKZ0dOTyVso/edit?usp=sharing](signup sheet), select the day you want to present ad add your name, topic of presentation, and how much time you need to present (15m, 30m, or 60m). If there's already 60m total signed up for that day, then select another day.
+If you've got an idea for _The Mind Garden_, head over to the [signup sheet](https://docs.google.com/spreadsheets/d/1i-lfeonhrBjc4RARYGeJBKIhGzdOOqLZWKZ0dOTyVso/edit?usp=sharing), select the day tab you want to present and add your name, topic of presentation, and how much time you need to present (15m, 30m, or 60m). If there's already 60m total signed up for that day, then select another day.

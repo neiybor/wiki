@@ -6,7 +6,7 @@
 
 To be clear about "topics of interest," it could literally be anything that _you_ think is interesting that you think other's might also think is interesting. Maybe it's a practial application of Docker for your dev environment that makes something easier for you? Or maybe you have something to say about Quantum Computers? Or maybe you want to show an introduction to ReasonML? Or maybe you have a great StarCraft II Zerg rush strategy? Or maybe...
 
-As Mr. Rogers wonders: "Do you ever grow anything in the garden of your mind?"
+As Mr. Rogers wonders: **"Do you ever grow anything in the garden of your mind?"**
 
 [video](https://youtu.be/a3jXdMM2_g8){.youtube}
 

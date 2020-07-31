@@ -7,9 +7,9 @@
 * [Community](/community)
 * [Marketing](/marketing)
 * [Strategy](/strategy)
-* [Office & IT](/it)
 
 ## Other
+* [Office & IT](/it)
 * [Neighbor Lore](/neighbor-lore)
 
 # Q4 2019 Goals

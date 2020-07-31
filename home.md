@@ -2,12 +2,15 @@
 <!-- SUBTITLE: Welcome to the best company on earth -->
 
 # Quick links
-
+## Departments
 * [Product Engineering](/engineering)
 * [Community](/community)
 * [Marketing](/marketing)
 * [Strategy](/strategy)
 * [Office & IT](/it)
+
+## Other
+* [Neighbor Lore](/neighbor-lore)
 
 # Q4 2019 Goals
 ### Search Engine Optimization

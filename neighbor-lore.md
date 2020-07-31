@@ -7,3 +7,4 @@
 * It's been alleged that Sean Bird named his first son after Neighbor CEO Joseph Woodbury
 * Chris Pratt not only shares a name with the famous actor, but his [github handle](https://github.com/prattprattpratt) is the same as the actor's [twitter handle](https://twitter.com/prattprattpratt)
 * The [original Neighbor logo](https://drive.google.com/file/d/0Bx5DR2SdaEEwYWdUenNDN1dBRXM/view?usp=sharing) was created by searching "free logo maker" on Google, clicking the first result, searching its internal image catalog for "house" and using one of the first few results.
+* Neighbor's first office was a tiny 10x10 room on  BYU's campus where the A/C and heating unit was always on the fritz.

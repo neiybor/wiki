@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Host team home page -->
 
 # Team
-* Brian Kirkby
+* Brian Kirkby (lead)
 * Paul O'Neill
 * Harsh Bhakt
 * Clark Brown

@@ -3,15 +3,15 @@
 
 # Engineering Team Responsibilities
 
-* Host
-	* Host product features (host signup, listings, host quality, etc.) 
+## Host
+  * Host product features (host signup, listings, host quality, etc.) 
   * Host Admin tool features + Impersonation
   * Stripe / Payments
-* Renter
+ ## Renter
   * Renter product features (reservation flow, search / match, etc.)
   * Renter Admin Features
   * DB Analytics (database, DOMO, Redshift)
-* Growth
+## Growth
   * Growth featurs (seo, referral program, etc)
   * Internal SEO / CMS tooling
   * Blog

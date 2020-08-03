@@ -1,5 +1,4 @@
 <!-- TITLE: Team Responsibilities -->
-<!-- SUBTITLE: Breakdown of team responsibilities -->
 
 # Engineering Team Responsibilities
 

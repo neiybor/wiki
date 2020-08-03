@@ -19,12 +19,12 @@ Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" 
 * [Content Management Servers](/engineering/content-management-servers)
 * [Device Testing](/engineering/device-testing)
 * [Running Frontend Nginx on Dev](/engineering/frontend-nginx)
-* [SEO Research Center](https://drive.google.com/drive/u/0/folders/1dVUIEQbZPohrl7ebrT_K-nqavSoiOuJn)
 * [Analytics](/engineering/analytics)
 * [Architecture](/engineering/architecture)
 * [Common Commands](/engineering/common-commands)
 * [Creating New Elasticsearch Index and Migrating Listings](/engineering/creating-new-elastic-search-index)
 * [Live Troubleshooting](engineering/live-troubleshooting)
+* [SEO Research Center](https://drive.google.com/drive/u/0/folders/1dVUIEQbZPohrl7ebrT_K-nqavSoiOuJn)
 # Onboarding
 
 * [Onboarding](/engineering/onboarding)

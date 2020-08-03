@@ -8,11 +8,12 @@ Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" 
 * [Renter](/engineering/renter)
 * [Growth](/engineering/growth)
 
-How do I know which team does what?
+[How do I know which team does what?](/engineering/team-responsibilities)
 
-# Past Meetings
-* [Sprint Demos]()
-* [All Hands]()
+# Resources
+* [Sprint Demos](https://drive.google.com/drive/u/0/folders/15fenDgmGBndgrUGfFHVeFuERMVXzQP-v)
+* [All Hands](https://drive.google.com/drive/u/0/folders/1kWfPqNGWZjd1_F6iwi3xmrRbkTtB2Z7e)
+* [Product Priority Form]()
 
 # Technical
 * [Content Management Servers](/engineering/content-management-servers)

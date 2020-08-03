@@ -2,12 +2,20 @@
 <!-- SUBTITLE: Product Central -->
 
 # Neighbor Engineering
-* [Goals](/engineering/goals)
-* [Feedback](/enginering/feedback)
-* [Onboarding](/engineering/onboarding)
-* [Dev Setup](/engineering/devsetup)
-* [Mac Setup](/engineering/macsetup)
-* [Mac/Docker Setup](/engineering/macdocker)
+Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" target="_blank">https://issue.neighbor.com</a>
+
+## Teams
+* [Host](/engineering/host)
+* [Renter](/engineering/renter)
+* [Growth](/engineering/growth)
+
+How do I know which team does what?
+
+## Past Meetings
+* [Sprint Demos]()
+* [All Hands]()
+
+## Technical
 * [Content Management Servers](/engineering/content-management-servers)
 * [Device Testing](/engineering/device-testing)
 * [Running Frontend Nginx on Dev](/engineering/frontend-nginx)
@@ -15,10 +23,18 @@
 * [Analytics](/engineering/analytics)
 * [Architecture](/engineering/architecture)
 * [Common Commands](/engineering/common-commands)
-* [Common Problems](/engineering/common-problems)
 * [Creating New Elasticsearch Index and Migrating Listings](/engineering/creating-new-elastic-search-index)
-* [Deployment](/engineering/deployment)
 * [Live Troubleshooting](engineering/live-troubleshooting)
+## Onboarding
 
-### Features Ideas and Bugs
-Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" target="_blank">https://issue.neighbor.com</a>
+* [Onboarding](/engineering/onboarding)
+* [Dev Setup](/engineering/devsetup)
+* [Mac Setup](/engineering/macsetup)
+* [Mac/Docker Setup](/engineering/macdocker)
+* [Common Problems](/engineering/common-problems)
+* [Deployment](/engineering/deployment)
+
+## Misc
+
+* [Goals](/engineering/goals)
+* [Feedback](/enginering/feedback)

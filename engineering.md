@@ -1,21 +1,20 @@
 <!-- TITLE: Engineering -->
 <!-- SUBTITLE: Product Central -->
 
-# Neighbor Engineering
 Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" target="_blank">https://issue.neighbor.com</a>
 
-## Teams
+# Teams
 * [Host](/engineering/host)
 * [Renter](/engineering/renter)
 * [Growth](/engineering/growth)
 
 How do I know which team does what?
 
-## Past Meetings
+# Past Meetings
 * [Sprint Demos]()
 * [All Hands]()
 
-## Technical
+# Technical
 * [Content Management Servers](/engineering/content-management-servers)
 * [Device Testing](/engineering/device-testing)
 * [Running Frontend Nginx on Dev](/engineering/frontend-nginx)
@@ -25,7 +24,7 @@ How do I know which team does what?
 * [Common Commands](/engineering/common-commands)
 * [Creating New Elasticsearch Index and Migrating Listings](/engineering/creating-new-elastic-search-index)
 * [Live Troubleshooting](engineering/live-troubleshooting)
-## Onboarding
+# Onboarding
 
 * [Onboarding](/engineering/onboarding)
 * [Dev Setup](/engineering/devsetup)
@@ -34,7 +33,7 @@ How do I know which team does what?
 * [Common Problems](/engineering/common-problems)
 * [Deployment](/engineering/deployment)
 
-## Misc
+# Misc
 
 * [Goals](/engineering/goals)
 * [Feedback](/enginering/feedback)

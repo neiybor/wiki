@@ -17,3 +17,6 @@ If you've got an idea for _The Mind Garden_, head over to the [signup sheet](htt
 As Mr. Rogers wonders: **"Do you ever grow anything in the garden of your mind?"**
 
 [video](https://youtu.be/a3jXdMM2_g8){.youtube}
+
+# Past Sessions
+* [2020-08-06: Edit Distances and Genetic Algorithms](https://drive.google.com/file/d/1K9KFeEEiQJ4QjO26cwzGLPxa_U2fQ9hz/view)

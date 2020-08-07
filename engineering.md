@@ -39,3 +39,4 @@ Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" 
 
 * [Goals](/engineering/goals)
 * [Feedback](/enginering/feedback)
+* [The Mind Garden](/engineering/the-mind-garden)

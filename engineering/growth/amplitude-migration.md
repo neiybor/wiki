@@ -10,7 +10,7 @@
 [Event & Property Migration](https://docs.google.com/spreadsheets/d/1A7IVwDa55c_22e7ZnrI-jNxbRwuR4NWHFM4TV4c7uK8/edit?usp=sharing)
 [A/B Testing Best Practices](https://help.amplitude.com/hc/en-us/articles/115001580108-How-to-Analyze-A-B-Tests-Results-in-Amplitude)
 
-# Q & A
+# Internal Q & A
 ## Do we need a full history of user properties?
  * 12M out of the 20M events from an extract of the last 7 months are user property updates
  * If we only keep the last user property update, it reduces to about 400K

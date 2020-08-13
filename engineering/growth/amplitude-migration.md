@@ -41,4 +41,4 @@ Kavitha examples:
 * EmailVerified - noun + verb, capital without spacing
 * logERROR - no verb, caps lock without spacing
 
-(Colton) I recommend we use Amplitude's recommendation
+(Colton) I recommend we use Amplitude's recommendation. Do not use client name in event name.

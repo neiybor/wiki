@@ -26,7 +26,7 @@
 ## Should we use Segment "cloud-mode" or "device-mode"
 * [Segment overview](https://segment.com/docs/connections/destinations/#connection-modes)
 
-## Do we want to use track calls (individual events) or page calls (Track Named Pages/Track Categorized Pages setting)?
+## Do we want to use track calls (individual events) or page calls (Track Named Pages/Track Categorized Pages setting) when viewing a page?
 * [Segment Overview](https://segment.com/docs/connections/destinations/catalog/amplitude/#client-and-server)
 
 ## Do we track events as actions that users have done or by the pages that they have loaded?

@@ -27,3 +27,18 @@
 * [Segment Overview](https://segment.com/docs/connections/destinations/catalog/amplitude/#client-and-server)
 
 ## Do we track events as actions that users have done or by the pages that they have loaded?
+
+## Event & property nomenclature
+Amplitude recommendation:
+* All lower case
+* Spaces between words
+* Present tense verb + object
+
+Kavitha examples:
+* Application Installed - noun + verb, capital with spacing
+* Clicked clear filters - verb + noun, first word capital with spacing
+* clearIdentity - verb unclear, camel case
+* EmailVerified - noun + verb, capital without spacing
+* logERROR - no verb, caps lock without spacing
+
+(Colton) I recommend we use Amplitude's recommendation

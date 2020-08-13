@@ -23,6 +23,8 @@
 ## Should we use Segment "cloud-mode" or "device-mode"
 * [Segment overview](https://segment.com/docs/connections/destinations/#connection-modes)
 
-## Do we want to use Track Named Pages or Track Categorized Pages or Events?
+## Do we want to use track calls (individual events) or page calls (Track Named Pages/Track Categorized Pages setting)?
 * [Segment Overview](https://segment.com/docs/connections/destinations/catalog/amplitude/#client-and-server)
-* (Colton) Rather than using events for specific pages (e.g., listing detail, host, homepage, search), we should use both Track Named Pages and Track Categorized Pages. Categorized would only be helpful when we need a 2nd layer of identification (e.g., Listing Features page). We will want to define what pages need names and categories.
+* (Colton) I think rather Rather than using track calls for specific pages (e.g., listing detail, host, homepage, search), we should use both Track Named Pages and Track Categorized Pages
+
+## Do we track events as actions that users have done or by the pages that they have loaded?

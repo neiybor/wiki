@@ -8,7 +8,10 @@
 # Documents
 [Activation Plan](https://docs.google.com/spreadsheets/d/1VelXZKa1y9ZIM8we2viJ2xv9hrZ1B3xg77gVbvIgcvs/edit?usp=sharing)
 [Event & Property Migration](https://docs.google.com/spreadsheets/d/1A7IVwDa55c_22e7ZnrI-jNxbRwuR4NWHFM4TV4c7uK8/edit?usp=sharing)
+
+# Resources
 [A/B Testing Best Practices](https://help.amplitude.com/hc/en-us/articles/115001580108-How-to-Analyze-A-B-Tests-Results-in-Amplitude)
+[Data Taxonomy](https://help.amplitude.com/hc/en-us/articles/115000465251-Data-Taxonomy-Playbook)
 
 # Internal Q & A
 ## Do we need a full history of user properties?

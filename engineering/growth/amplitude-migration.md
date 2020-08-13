@@ -21,3 +21,6 @@
 	* LOTS of events - but we could probably reduce them quite a lot too
 ## Should we use Segment "cloud-mode" or "device-mode"
 * [Segment overview](https://segment.com/docs/connections/destinations/#connection-modes)
+
+## Do we want to use Track Named Pages or Track Categorized Pages?
+* [Segment Overview] (https://segment.com/docs/connections/destinations/catalog/amplitude/#client-and-server)

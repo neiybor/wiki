@@ -10,6 +10,8 @@
 
 # Q & A
 ## Do we need a full history of user properties?
+ * 12M out of the 20M events from an extract of the last 7 months are user property updates
+ * If we only keep the last user property update, it reduces to about 400K
 ## How do we want to store AB test assignments?
 * Use properties?
 	* property per event - lots of properties, is this a big deal?

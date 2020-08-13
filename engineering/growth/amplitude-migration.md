@@ -18,3 +18,5 @@
 	* single property array - complicates atomicity of test assignment because we are mutating a property 
 * Use events
 	* LOTS of events - but we could probably reduce them quite a lot too
+## Should we use Segment "cloud-mode" or "device-mode"
+* [Segment overview](https://segment.com/docs/connections/destinations/#connection-modes)

@@ -39,7 +39,7 @@ PROPERTIES
 * All lowercase
 * If not a string value, refer the property's value type e.g. **is** subscriber = true/false , **num** of purchases = [1. 2. 3]
 
-Kavitha examples:
+Kavitha event name examples:
 * Application Installed - noun + verb, capital with spacing
 * Clicked clear filters - verb + noun, first word capital with spacing
 * clearIdentity - verb unclear, camel case

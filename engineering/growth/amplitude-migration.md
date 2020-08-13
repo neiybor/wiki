@@ -9,3 +9,10 @@
 [A/B Testing Best Practices](https://help.amplitude.com/hc/en-us/articles/115001580108-How-to-Analyze-A-B-Tests-Results-in-Amplitude)
 
 # Q & A
+## Do we need a full history of user properties?
+## How do we want to store AB test assignments?
+* Use properties?
+	* property per event - lots of properties, is this a big deal?
+	* single property array - complicates atomicity of test assignment because we are mutating a property 
+* Use events
+	* LOTS of events - but we could probably reduce them quite a lot too

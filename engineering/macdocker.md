@@ -32,6 +32,11 @@
 2. update `/etc/hosts` file
 	* add `nbr.pizza` to the localhost entry of `/etc/hosts` file
 	* add `api.nbr.pizza` to localhost entry of `/etc/hosts` file
+		```
+		127.0.0.1 nbr.pizza
+		127.0.0.1 api.nbr.pizza
+		```
+		
 2. run `cd config-management/docker && ./setup.sh` to do the following:
 	* build docker containers
 	* create needed SNS topics
@@ -43,7 +48,7 @@
 			* docker_api_1
 			* docker_db_1
 			* docker_localstack_1
-2. browse to website by opening <a href="https://nbr.pizza" target="_blank">https://nbr.pizza</a>
+2. browse to website by opening <a href="https://nbr.pizza" target="_blank">https://nbr.pizza</a>. Ensure the browser is using https when visitng nbr.pizza otherwise it won't work.
 
 ## common activities
 the `setup.sh` script above created several listings and users into the database. this section contains info about these users and listings for manual testing purposes.

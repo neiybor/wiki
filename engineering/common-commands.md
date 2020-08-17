@@ -23,7 +23,7 @@ a common request from CS is to ask us to discount a reservation for various reas
 
 1. get the reservation_id for the reservation you wish to discount (<R_ID>)
 2. modify the neighbor fee for future payments:
-	1. `select value from reservation_metadata where reservation_id=<R_ID> and key='fees';` # gets the value of the fees
+	1. `select id,value from reservation_metadata where reservation_id=<R_ID> and key='fees';` # gets the value of the fees
 	2. modify the fees value like so '[{"fee":"neighbor","amt":4215},{"fee":"stripe","amt":1614},{"fee":"host","amt":26486}]' => '[{"fee":"neighbor","amt":2215},{"fee":"stripe","amt":1614},{"fee":"host","amt":26486}]' (this is for a $20 discount)
 	3. `update reservation_metadata set value='[{"fee":"neighbor","amt":2215},{"fee":"stripe","amt":1614},{"fee":"host","amt":26486}]' where reservation_id=<R_ID> and key='fees';`
 3. check existing payments:

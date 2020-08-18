@@ -6,5 +6,6 @@
 * Paul O'Neill
 * Harsh Bhakt
 * Clark Brown
+* Jaden Holladay
 
 # Roadmap

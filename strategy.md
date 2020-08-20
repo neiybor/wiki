@@ -49,6 +49,9 @@ Login: https://view.imirus.com/301/signin
 Username: colton@neighbor.com
 Password: TKErxOGe
 
+### Reservation States
+[Lucidchart Diagram](https://app.lucidchart.com/documents/edit/14b83815-9b4b-4f5c-bb73-f91de29e0c9c/0_0)
+
 # SEO
 ## Q4 2019 Goals
 Vision: By the end of Q4 2019, regarding Neighbor SEO:

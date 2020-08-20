@@ -13,8 +13,8 @@
 	* brew install awscli
 	* Configure AWS API keys in environment. These keys can be found in (aws)[https://console.aws.amazon.com/iam/home?region=us-east-1#/security_credentials]. Easiest way is to add them to your bash/zsh profile so they get loaded into your shell. If you want to be advanced you can look at https://github.com/miquella/vaulted.
 	  ```sh
-				export AWS_ACCESS_KEY_ID="redacted"
-				export AWS_SECRET_ACCESS_KEY="redacted"
+export AWS_ACCESS_KEY_ID="redacted"
+export AWS_SECRET_ACCESS_KEY="redacted"
 		```
 2. Create an ssh key and configure Github
 		1. `ssh -keygen -t rsa` (you can skip this step if you already have an SSH key you would like to use)

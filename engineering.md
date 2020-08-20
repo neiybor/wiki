@@ -26,6 +26,7 @@ Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" 
 * [Creating New Elasticsearch Index and Migrating Listings](/engineering/creating-new-elastic-search-index)
 * [Live Troubleshooting](engineering/live-troubleshooting)
 * [SEO Research Center](https://drive.google.com/drive/u/0/folders/1dVUIEQbZPohrl7ebrT_K-nqavSoiOuJn)
+* [Deploy Environment Variables] (/engineering/deploy-env-vars)
 # Onboarding
 
 * [Onboarding](/engineering/onboarding)

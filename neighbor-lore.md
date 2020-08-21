@@ -8,5 +8,5 @@
 * Chris Pratt not only shares a name with the famous actor, but his [github handle](https://github.com/prattprattpratt) is the same as the actor's [twitter handle](https://twitter.com/prattprattpratt)
 * The [original Neighbor logo](https://drive.google.com/file/d/0Bx5DR2SdaEEwYWdUenNDN1dBRXM/view?usp=sharing) was created by searching "free logo maker" on Google, clicking the first result, searching its internal image catalog for "house" and using one of the first few results.
 * Neighbor's first office was a tiny 10x10 room on  BYU's campus where the A/C and heating unit was always on the fritz.
-* Neighbor's third? office was a small house in American Fork that is similar vintage and style to house on the Mr. Rogers TV program.
+* Neighbor's fourth office was a small house in American Fork that is similar vintage and style to house on the Mr. Rogers TV program.
 * The signature Neighbor whistle signified a sale for a long time, it has since evolved into an expression of congratulations equivilent to clapping for someone. 

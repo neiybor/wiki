@@ -27,6 +27,7 @@ Report feature requests, ideas, and bugs at <a href="http://issue.neighbor.com" 
 * [Live Troubleshooting](engineering/live-troubleshooting)
 * [Update Environment Variables](engineering/deploy-env-vars)
 * [SEO Research Center](https://drive.google.com/drive/u/0/folders/1dVUIEQbZPohrl7ebrT_K-nqavSoiOuJn)
+* [Developing for Persona Locally](/engineering/persona-dev)
 
 # Onboarding
 

@@ -31,6 +31,7 @@
 	* `git clone git@github.com:neiybor/config-management.git`
 2. config `rails-api` for the docker dev environment
 	* `cp config-management/docker/.env.docker.backend rails-api/.env`
+	* Elastic search doesnt currently work with localstack in our environment. To use the staging elastic search change the following environment variable in your .env file.  `LISTINGS_ES_URL=https://search-listings-development-lhs7tvvkam2qnwxbmg63nzysbe.us-east-1.es.amazonaws.com/`
 2. config `react-frontend` for the docker dev environment
 	* `cp config-management/docker/.env.docker.frontend react-frontend/.env`
 2. update `/etc/hosts` file
@@ -52,7 +53,7 @@
 			* docker_api_1
 			* docker_db_1
 			* docker_localstack_1
-2. browse to website by opening <a href="https://nbr.pizza" target="_blank">https://nbr.pizza</a>. Ensure the browser is using https when visitng nbr.pizza otherwise it won't work.
+2. Open <a href="https://nbr.pizza" target="_blank">https://nbr.pizza</a>. Ensure the browser is using https when visitng nbr.pizza otherwise it won't work.
 
 ## common activities
 the `setup.sh` script above created several listings and users into the database. this section contains info about these users and listings for manual testing purposes.

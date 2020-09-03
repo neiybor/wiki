@@ -19,4 +19,5 @@ As Mr. Rogers wonders: **"Do you ever grow anything in the garden of your mind?"
 [video](https://youtu.be/a3jXdMM2_g8){.youtube}
 
 # Past Sessions
+* [2020-09-03: Design Systems and Types of Innovation](https://drive.google.com/file/d/1Ry_sRbJhwhPgOyaqu5WewhgMXicWRs4i/view?usp=sharing)
 * [2020-08-06: Edit Distances and Genetic Algorithms](https://drive.google.com/file/d/1K9KFeEEiQJ4QjO26cwzGLPxa_U2fQ9hz/view?usp=sharing)

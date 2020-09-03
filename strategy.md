@@ -52,6 +52,9 @@ Password: TKErxOGe
 ### Reservation Statuses
 [Reservation Statuses Diagram](https://drive.google.com/file/d/1-EisaEV1Pkegq4FGR7h85ajUGN7aHubc/view?usp=sharing)
 
+### Market Boundaries
+[Market Boundaries Google Map](https://www.google.com/maps/d/u/0/edit?mid=1dHU93CiFk9Uku4xBwktYksX9vvl8n5GI&ll=34.98466619418738%2C-98.06705532567729&z=6)
+
 # SEO
 ## Q4 2019 Goals
 Vision: By the end of Q4 2019, regarding Neighbor SEO:

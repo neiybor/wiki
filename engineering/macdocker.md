@@ -17,7 +17,7 @@
 		export AWS_SECRET_ACCESS_KEY="redacted"
 		```
 2. Create an ssh key and configure Github
-		1. `ssh -keygen -t rsa` (you can skip this step if you already have an SSH key you would like to use)
+		1. `ssh-keygen -t rsa` (you can skip this step if you already have an SSH key you would like to use)
 		2. `cat ~/.ssh/id_rsa.pub | pbcopy` # this will copy the public key to the keyboard buffer
 		3. go to `https://github.com/settings/keys` and click on "New SSH key"
 		4. paste what's in your keyboard buffer into the "Key" areas, give it a name and click "Add SSH key"

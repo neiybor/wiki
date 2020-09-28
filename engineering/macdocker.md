@@ -41,7 +41,10 @@
 		127.0.0.1 nbr.pizza
 		127.0.0.1 api.nbr.pizza
 		```
-		
+2. add github access token for frontend build
+  * The frontend build process needs a github access token in order to pull npm packages
+	* Create a github access token with the `read:packages` permission and copy the token secret
+	* Add `export GITHUB_TOKEN="your_token_secret"` to ~/.zshenv (you may need to create this file)
 2. run `cd config-management/docker && ./setup.sh` to do the following:
 	* build docker containers
 	* create needed SNS topics

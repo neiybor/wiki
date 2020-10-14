@@ -116,6 +116,9 @@ git clone git@github.com:neiybor/config-management.git
 1. Populate the search index for your local enviornment:
 	1. Run `PERCENT=100 rake api:index_listings` in the `rails-api` directory
 	1. Run `rake api:test_users` in the `rails-api` directory
+1. Populate the admin search index for your local environment
+	1. Run `rake api:index_reservations` in the `rails-api` directory
+  1. Run `rake api:index_users` in the `rails-api` directory
 
 ## Install tools
 * Install tools
